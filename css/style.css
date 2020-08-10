@@ -1,0 +1,45 @@
+@font-face {
+    font-family: font;
+    src: url(font.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: font;
+    background-color:ghostwhite;
+
+}
+.bg-blur{
+    backdrop-filter: blur(6px)
+}
+.bg-pers0 {
+        background-color: #212529ce !important;  
+}
+
+header {
+    font-weight: bold;
+    margin-bottom: -48px;
+}
+
+.nav-link {
+    color: white;
+    padding: 0;
+    padding-left: 25px;
+    ;
+}
+.nav-link:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+.gta-gCard:hover{
+    opacity: 0.5;
+}
+
+#home-img{
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/BG3.png);
+    background-repeat: round;
+}
