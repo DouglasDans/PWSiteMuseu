@@ -13,18 +13,25 @@
   <header class="justify-content-end">
     <div class="nav-container justify-content-end ">
       <nav class="navbar navbar-expand-md navbar-white fixed-top p-0 justify-content-end bg-blur bg-pers0 p-2">
-        <div class="container">
-          <a class="nav-link" href="index.html"><img src="img/DD-Paralax.png" height="35px"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+          <a class="nav-link" href="index.html"><img src="img/DD-Paralax.png" height="40px"></a>
+          </div>
+          <div class="col">
+            <a class="nav-link mt-2" href="index.html">Home</a>
+          </div>
+          <div class="col">
+            <a class="nav-link mt-2" href="produtos.html">Produtos</a>
+          </div>
+          <div class="col">
+            <a class="nav-link mt-2" href="quemsomos.html">Quem Somos</a>
+          </div>
+          <div class="col">
+            <a class="nav-link mt-2" href="contato.html">Fale Conosco</a>
+          </div>
         </div>
-      </nav>
-      <nav class="sticky-top position-fixed bg-blur bg-pers0 text-white p-0"
-        style="width: 100%;margin-top: 51px;height: 40px;">
-        <div class="container nav-item navbar text-left navbar-expand-md justify-content">
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link" href="produtos.html">Produtos</a>
-          <a class="nav-link" href="quemsomos.html">Quem Somos</a>
-          <a class="nav-link" href="contato.html">Fale Conosco</a>
-        </div>
+      </div>
       </nav>
     </div>
   </header>

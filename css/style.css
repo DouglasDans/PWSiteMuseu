@@ -19,12 +19,18 @@ body {
 }
 
 .bg-pers0 {
-        background-color: #21252957 !important;  
+        background-color: #00000088 !important;  
 }
 
 header {
     font-weight: bold;
     margin-bottom: -48px;
+}
+nav{
+    height: 80px;
+    border-bottom: gold;
+    border-width: 1px;
+    border-bottom-style: solid;
 }
 
 .nav-link {
