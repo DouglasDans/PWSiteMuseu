@@ -9,7 +9,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 </head>
 
-<body>
+<body class="bg-pers1 text-white">
   <header class="justify-content-end">
     <div class="nav-container justify-content-end ">
       <nav class="navbar navbar-expand-md navbar-white fixed-top p-0 justify-content-end bg-blur bg-pers0 p-2">
@@ -168,7 +168,6 @@
       <img src="img/Americanas-empresas_MARCAS_marcas_14_multilaser.png">
     </center>
 
-reerferergrgerger
 
 
   </main>

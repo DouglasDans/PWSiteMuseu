@@ -7,14 +7,19 @@
 
 body {
     font-family: font;
-    background-color:ghostwhite;
-
 }
+
+.bg-pers1{
+    background-color:rgb(24, 24, 32);
+    color: white;
+}
+
 .bg-blur{
     backdrop-filter: blur(6px)
 }
+
 .bg-pers0 {
-        background-color: #212529ce !important;  
+        background-color: #21252957 !important;  
 }
 
 header {
