@@ -42,7 +42,11 @@
         
       </div>
     </div>
-    <div class="container-fluid divDestaqueMenu pb-4 pt-4">
+    <div class="container-fluid divDestaqueMenu pb-4 pt-3">
+
+      <div class="row text-center pb-5">
+        <h2>No nosso museu você vai encontrar</h2>
+      </div>
 
       <div class="row">
         <div class="col">
