@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Produtos - DD Livros</title>
+  <title>Home - Salvador Dalí</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
