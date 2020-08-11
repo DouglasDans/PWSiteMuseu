@@ -11,7 +11,7 @@
 
 <body class="bg-pers1 text-white">
   <header class="justify-content-end">
-    <div class="nav-container justify-content-end ">
+    <div class="nav-container justify-content-end">
       <nav class="navbar navbar-expand-md navbar-white fixed-top p-0 justify-content-end bg-blur bg-pers0 p-2">
       <div class="container">
         <div class="row">
@@ -38,47 +38,47 @@
 
   <main>
     <div id="home-img">
-      <div class="mx-auto text-center text-white M-5">
-        DINOVO ISSA MIERDA
+      <div class="mx-auto text-bottom text-white M-5">
+        
       </div>
     </div>
-    <div class="container mb-4 mt-4">
+    <div class="container-fluid divDestaqueMenu pb-4 pt-4">
 
       <div class="row">
         <div class="col">
-          <div class="text-left gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/Capa Antiga.png" width="140px" height="190px"
-                class="rounded-lg p-0 mx-auto" alt="..."></a>
-            <div class="ml-2">
-              <div class="font-weight-bold text-center">
-                GTA Etec 0.3<br>
-                <small style="font-size: 60%">Lançamento: Setembro/2019</small>
+          <div class="gta-gCard text-center p-1 rounded-sm">
+            <a href="pagina0.3.html" class=""><img src="img/issonaoehentai.png" width="140px" height="140px"
+                class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+            <div>
+              <div class="text-center">
+                <p class="h2">Biografia</p>
+                <p>Aprenda quem foi e como viveu Salvador Dalí</p>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="text-left gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina1.0.html" class=""><img src="img/capa1.0.png" width="140px" height="190px"
-                class="rounded-lg p-0 mx-auto" alt="..."></a>
-            <div class="ml-2">
-              <div class="font-weight-bold text-center">
-                GTA Etec 1.0<br>
-                <small style="font-size: 60%">Lançamento: 09 Janeiro de 2020</small>
+          <div class="gta-gCard text-center p-1 rounded-sm">
+            <a href="pagina0.3.html" class=""><img src="img/issonaoehentai.png" width="140px" height="140px"
+                class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+            <div>
+              <div class="text-center">
+                <p class="h2">Ingressos</p>
+                <p>Adquira o seu passe para o museu digital de Dalí</p>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="text-left gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina1.3.html" class=""><img src="img/capa1.3.png" width="140px" height="190px"
-                class="rounded-lg p-0 mx-auto" alt="..."></a>
-            <div class="ml-2">
-              <div class="font-weight-bold text-center">
-                GTA Etec 1.3<br>
-                <small style="font-size: 60%">Lançamento: 26 Agosto de 2020</small>
+          <div class="gta-gCard text-center p-1 rounded-sm">
+            <a href="pagina0.3.html" class=""><img src="img/issonaoehentai.png" width="140px" height="140px"
+                class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+            <div>
+              <div class="text-center">
+                <p class="h2">Acervo</p>
+                <p>Visite as obras do grande artista do surrealismo</p>
               </div>
             </div>
           </div>
@@ -112,6 +112,7 @@
       </div>
     </div>
 
+    <!-- DAQUI PRA BAIXO TA TUDO BUGADO, DPS EU TENTO ARRUMAR, E PUTA RODAPÉ FEIO EM DOUGLAS, ESPERAVA MAIS DE VOCÊ -->
 
     <section class=" flush-with-above p-5 text-right">
       <div class="container">
@@ -182,6 +183,7 @@
     <footer class="text-white bg-dark">
       <div class="p-3 text-left float-left">
         <img src="img/DD-Rmk-W.png" height="30px">
+        <img src="img/logoMista.png" height="30px" class="ml-5">
       </div>
       <div class="text-right p-3">
         <small>DD Livros é uma marca registrada Paralax Company © 2019</small>

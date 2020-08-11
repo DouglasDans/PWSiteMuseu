@@ -9,28 +9,30 @@ body {
     font-family: font;
 }
 
-.bg-pers1{
-    background-color:rgb(24, 24, 32);
+.bg-pers1 {
+    background-color: rgb(24, 24, 32);
     color: white;
 }
 
-.bg-blur{
-    backdrop-filter: blur(6px)
+.bg-blur {
+    backdrop-filter: blur(2px)
 }
 
 .bg-pers0 {
-        background-color: #00000088 !important;  
+    background-color: #000000d2 !important;
 }
 
 header {
     font-weight: bold;
     margin-bottom: -48px;
 }
-nav{
+
+nav {
     height: 80px;
     border-bottom: gold;
     border-width: 1px;
     border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
 
 .nav-link {
@@ -39,18 +41,35 @@ nav{
     padding-left: 25px;
     ;
 }
+
 .nav-link:hover {
     opacity: 0.5;
     color: white;
 }
 
-.gta-gCard:hover{
+.gta-gCard:hover {
     opacity: 0.5;
 }
 
-#home-img{
+#home-img {
     height: 600px;
     width: 100%;
     background-image: url(../img/BG3.png);
     background-repeat: round;
+}
+
+.imgDestaqueMenu {
+    border-radius: 50%;
+}
+
+.divDestaqueMenu {
+    border-top: gold;
+    border-top-style: solid;
+    border-top-width: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: gold;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    background-color: rgb(14, 14, 14) !important;
 }
