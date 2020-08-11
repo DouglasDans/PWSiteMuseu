@@ -16,7 +16,7 @@
       <div class="container">
         <div class="row">
           <div class="col-4">
-          <a class="nav-link" href="index.html"><img src="img/DD-Paralax.png" height="40px"></a>
+          <a class="nav-link" href="index.html"><img src="img/dalidaonde.png" height="40px"></a>
           </div>
           <div class="col">
             <a class="nav-link mt-2" href="index.html">Home</a>
