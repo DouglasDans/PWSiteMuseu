@@ -38,8 +38,8 @@
 
   <main>
     <div id="home-img">
-      <div class="mx-auto text-bottom text-white M-5">
-        
+      <div class="mx-auto text-bottom text-white">
+          <p class="text-bottom">alooo</p>
       </div>
     </div>
     <div class="container-fluid divDestaqueMenu pb-4 pt-3">
@@ -166,7 +166,7 @@
       </div>
     </section>
 
-    <center style="background: white; height: auto; padding: 0px; margin-bottom: 15px;">
+    <div class="container-fluid text-center pb-2" style="background: white;">
       <img src="img/Americanas-empresas_home_marcas_01_samsung.png">
       <img src="img/Americanas-empresas_home_marcas_02_dell.png">
       <img src="img/Americanas-empresas_home_marcas_03_acer.png">
@@ -178,7 +178,7 @@
       <img src="img/Americanas-empresas_MARCAS_marcas_13_microsoft.png">
       <img src="img/Americanas-empresas_MARCAS_marcas_14_intel.png">
       <img src="img/Americanas-empresas_MARCAS_marcas_14_multilaser.png">
-    </center>
+    </div>
 
 
 
