@@ -12,7 +12,7 @@
 <body class="bg-pers1 text-white">
   <header class="justify-content-end">
     <div class="nav-container justify-content-end">
-      <nav class="navbar navbar-expand-md navbar-white fixed-top p-0 justify-content-end bg-blur bg-pers0 p-2">
+      <nav class="navbar navbar-expand-md navbar-white p-0 justify-content-end bg-blur bg-pers0 p-2">
       <div class="container">
         <div class="row">
           <div class="col-4">
@@ -38,11 +38,14 @@
 
   <main>
     <div id="home-img">
-      <div class="mx-auto text-bottom text-white M-5">
-        
+      <div class="carousel-caption">
+        <blockquote class="blockquote text-right">
+          <h1 class="display-1">Tá maluco professor?</h1>
+          <footer class="blockquote-footer" style="color: white;">Thiago</cite></footer>
+        </blockquote>
       </div>
     </div>
-    <div class="container-fluid divDestaqueMenu pb-4 pt-3">
+    <div class="container-fluid divDestaqueMenu pb-4 pt-4">
 
       <div class="row text-center pb-5">
         <h2>No nosso museu você vai encontrar</h2>
@@ -166,7 +169,7 @@
       </div>
     </section>
 
-    <center style="background: white; height: auto; padding: 0px; margin-bottom: 15px;">
+    <div class="container-fluid text-center pb-2" style="background: white;">
       <img src="img/Americanas-empresas_home_marcas_01_samsung.png">
       <img src="img/Americanas-empresas_home_marcas_02_dell.png">
       <img src="img/Americanas-empresas_home_marcas_03_acer.png">
@@ -178,18 +181,22 @@
       <img src="img/Americanas-empresas_MARCAS_marcas_13_microsoft.png">
       <img src="img/Americanas-empresas_MARCAS_marcas_14_intel.png">
       <img src="img/Americanas-empresas_MARCAS_marcas_14_multilaser.png">
-    </center>
+    </div>
 
 
 
   </main>
 </body>
     <footer class="text-white bg-dark">
-      <div class="p-3 text-left float-left">
-        <img src="img/DD-Rmk-W.png" height="30px">
-        <img src="img/logoMista.png" height="30px" class="ml-5">
+      <div class="container-fluid row text-left pt-4">
+        <div class="col-6 float-left">
+          <img src="img/DD-Rmk-W.png" height="30px">
+        </div>
+        <div class="col-6 text-right">
+          <img src="img/logoMista.png" height="30px" class="ml-5">
+        </div>
       </div>
-      <div class="text-right p-3">
+      <div class="container-fluid row text-center p-3">
         <small>DD Livros é uma marca registrada Paralax Company © 2019</small>
         <br>
         <small>© 2019 Paralax Design Site 5 é uma marca Grupo Liga</small>
