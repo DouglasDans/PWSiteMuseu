@@ -54,7 +54,7 @@
       <div class="row">
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/issonaoehentai.png" width="140px" height="140px"
+            <a href="pagina0.3.html" class=""><img src="https://i2.wp.com/arteref.com/wp-content/uploads/2019/05/salvador-dali-cover.jpg?fit=900%2C701&ssl=1" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
@@ -67,7 +67,7 @@
 
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/issonaoehentai.png" width="140px" height="140px"
+            <a href="pagina0.3.html" class=""><img src="https://archtrends.com/blog/wp-content/uploads/2018/04/fachada_museu_dali.jpg" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
@@ -78,9 +78,9 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col">f
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/issonaoehentai.png" width="140px" height="140px"
+            <a href="pagina0.3.html" class=""><img src="https://lh3.googleusercontent.com/proxy/buXdmEICYDYX51rPeagQT7ktF28DTYE7Ckl2aof465dHsDe3a4u6a0KCeit-XbukF4H6CpjqwBStioLOu7QQLNuU3aafpQnrwOqfNBXU6xJWJYeg-DIaVOlQMXOo89FmGb9acAJmQIgJyw" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
