@@ -94,10 +94,10 @@
         <div class="col">
           <div class="text-left gta-gCard text-center p-1 rounded-sm">
             <a href="https://etecspgov-my.sharepoint.com/:f:/g/personal/douglas_sousa43_etec_sp_gov_br/En-ALtGgqtdNrzdDAUyLWQkBFQa9JqsBIAX51tiKqRILKA?e=UdF0qS"
-              class=""><img src="img/onl.png" width="140px" height="190px" class="rounded-lg p-0 mx-auto" alt="..."></a>
+              class=""><img src="img/fc4a11c8-b099-4ab8-982d-cbee960f389f.jpg" width="140px" height="190px" class="rounded-lg p-0 mx-auto" alt="..."></a>
             <div class="ml-2">
               <div class="font-weight-bold text-center">
-                GTA Etec Código-Fonte<br>
+                GTA Etec Códiogo-Fonte<br>
                 <small style="font-size: 60%">Todas as imagens e vídeos usados o jogo</small>
               </div>
             </div>
