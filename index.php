@@ -12,7 +12,7 @@
 <body class="bg-pers1 text-white">
   <header class="justify-content-end">
     <div class="nav-container justify-content-end">
-      <nav class="navbar navbar-expand-md navbar-white fixed-top p-0 justify-content-end bg-blur bg-pers0 p-2">
+      <nav class="navbar navbar-expand-md navbar-white p-0 justify-content-end bg-blur bg-pers0 p-2">
       <div class="container">
         <div class="row">
           <div class="col-4">
@@ -38,11 +38,14 @@
 
   <main>
     <div id="home-img">
-      <div class="mx-auto text-bottom text-white M-5">
-        
+      <div class="carousel-caption">
+        <blockquote class="blockquote text-right">
+          <h1 class="display-1">Tá maluco professor?</h1>
+          <footer class="blockquote-footer" style="color: white;">Thiago</cite></footer>
+        </blockquote>
       </div>
     </div>
-    <div class="container-fluid divDestaqueMenu pb-4 pt-3">
+    <div class="container-fluid divDestaqueMenu pb-4 pt-4">
 
       <div class="row text-center pb-5">
         <h2>No nosso museu você vai encontrar</h2>
@@ -117,34 +120,41 @@
     </div>
 
     <!-- DAQUI PRA BAIXO TA TUDO BUGADO, DPS EU TENTO ARRUMAR, E PUTA RODAPÉ FEIO EM DOUGLAS, ESPERAVA MAIS DE VOCÊ -->
-
-    <section class=" flush-with-above p-5 text-right">
-      <div class="container">
-        <div class="row justify-content-around align-items-center">
-          <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
-            <span class="title-decorative">GTA Etec 0.5</span>
-            <h5 class="h1">GTA Etec: Visítas Técnicas com o CJ</h5>
-            <p class="lead text-justify">
-              Essa foi a primeira tentativa de criar uma expansão pro GTA Etec, não se sabe ao certo, mas essa versão
-              foi lançada durante a 0.4/0.5 do jogo normal (mais ou menos em setembro/outubro de 2019). Ela permitia que
-              o jogador viajasse com o CJ para todos os mapas do GTA de PS2, além dos mapas de Bully e Manhunt, batendo
-              o recorde de 13Gb de jogo.
-            </p>
-          </div>
-          <!--end of col-->
-          <div class="col-12 col-md-5 order-md-1">
-            <img src="https://preview.ibb.co/dOW2sQ/GTAUG.png" alt="" height="300px">
-            <br><small>*imagem ilustrativa, esta versão foi totalmente perdida</small>
-          </div>
-          <!--end of col-->
+    
+    <div class="parceria container-fluid flush-with-above p-5">
+      <div class="row">
+        <div class="col-3">
+          <img src="img/DD-Paralax.png" class="img-fluid">
         </div>
-        <!--end of row-->
+        <div class="col-6 text-center">
+          <h1 class="display-5">UMA PARCERIA INÉDITA</h1>
+        </div>
+        <div class="col-3">
+          <img src="img/logoMista.png" class="img-fluid">
+        </div>
       </div>
-      <!--end of container-->
-    </section>
+    </div>
 
-    <section class="secon flush-with-above p-5 bg-pers">
-      <div class="container">
+    <div class="container-fluid flush-with-above p-5 text-right">
+      <div class="row justify-content-around align-items-center">
+        <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
+          <span class="title-decorative">GTA Etec 0.5</span>
+          <h5 class="h1">GTA Etec: Visítas Técnicas com o CJ</h5>
+          <p class="lead text-justify">
+            Essa foi a primeira tentativa de criar uma expansão pro GTA Etec, não se sabe ao certo, mas essa versão
+            foi lançada durante a 0.4/0.5 do jogo normal (mais ou menos em setembro/outubro de 2019). Ela permitia que
+            o jogador viajasse com o CJ para todos os mapas do GTA de PS2, além dos mapas de Bully e Manhunt, batendo
+            o recorde de 13Gb de jogo.
+          </p>
+        </div>
+        <div class="col-12 col-md-5 order-md-1">
+          <img src="https://preview.ibb.co/dOW2sQ/GTAUG.png" alt="" height="300px">
+          <br><small>*imagem ilustrativa, esta versão foi totalmente perdida</small>
+        </div>
+      </div>
+    </div>
+    
+      <div class="container flush-with-above p-5 bg-pers">
         <div class="row justify-content-around align-items-center">
           <div class="col-12 col-md-6 col-lg-5 text-center text-md-left section-intro">
             <span class="title-decorative">GTA Etec 1.0</span>
@@ -164,9 +174,8 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <center style="background: white; height: auto; padding: 0px; margin-bottom: 15px;">
+    
+    <div class="container-fluid text-center pb-2" style="background: white;">
       <img src="img/Americanas-empresas_home_marcas_01_samsung.png">
       <img src="img/Americanas-empresas_home_marcas_02_dell.png">
       <img src="img/Americanas-empresas_home_marcas_03_acer.png">
@@ -178,18 +187,22 @@
       <img src="img/Americanas-empresas_MARCAS_marcas_13_microsoft.png">
       <img src="img/Americanas-empresas_MARCAS_marcas_14_intel.png">
       <img src="img/Americanas-empresas_MARCAS_marcas_14_multilaser.png">
-    </center>
+    </div>
 
 
 
   </main>
 </body>
     <footer class="text-white bg-dark">
-      <div class="p-3 text-left float-left">
-        <img src="img/DD-Rmk-W.png" height="30px">
-        <img src="img/logoMista.png" height="30px" class="ml-5">
+      <div class="container-fluid row text-left pt-4">
+        <div class="col-6 float-left">
+          <img src="img/DD-Rmk-W.png" height="30px">
+        </div>
+        <div class="col-6 text-right">
+          <img src="img/logoMista.png" height="30px" class="ml-5">
+        </div>
       </div>
-      <div class="text-right p-3">
+      <div class="container-fluid row text-center p-3">
         <small>DD Livros é uma marca registrada Paralax Company © 2019</small>
         <br>
         <small>© 2019 Paralax Design Site 5 é uma marca Grupo Liga</small>

@@ -24,7 +24,6 @@ body {
 
 header {
     font-weight: bold;
-    margin-bottom: -48px;
 }
 
 nav {
@@ -52,9 +51,9 @@ nav {
 }
 
 #home-img {
-    height: 600px;
+    height: 100%;
     width: 100%;
-    background-image: url(../img/WhatsApp\ Image\ 2020-08-11\ at\ 11.50.18\ AM.jpeg);
+    background-image: url(../img/talvezhome.jpg);
     background-repeat: round;
 }
 
@@ -72,4 +71,10 @@ nav {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     background-color: rgb(14, 14, 14) !important;
+}
+
+.parceria {
+    border-bottom: gold;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
