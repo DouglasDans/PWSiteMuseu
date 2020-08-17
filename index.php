@@ -30,6 +30,9 @@
           <div class="col">
             <a class="nav-link mt-2" href="contato.html">Fale Conosco</a>
           </div>
+          <div class="col">
+            <a class="nav-link mt-2" href="login.php">Testando Login</a>
+          </div>
         </div>
       </div>
       </nav>
@@ -78,7 +81,7 @@
           </div>
         </div>
 
-        <div class="col">f
+        <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
             <a href="pagina0.3.html" class=""><img src="https://lh3.googleusercontent.com/proxy/buXdmEICYDYX51rPeagQT7ktF28DTYE7Ckl2aof465dHsDe3a4u6a0KCeit-XbukF4H6CpjqwBStioLOu7QQLNuU3aafpQnrwOqfNBXU6xJWJYeg-DIaVOlQMXOo89FmGb9acAJmQIgJyw" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
