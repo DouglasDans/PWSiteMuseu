@@ -188,8 +188,8 @@
       </div>
       <div class="container-fluid row text-center p-3">
         <small>DD Livros é uma marca registrada Paralax Company © 2019</small>
-        <br>
-        <small>© 2019 Paralax Design Site 5 é uma marca Grupo Liga</small>
+        <br><small>Aviras é a marca que me processou por um rodapé</small><br>
+        <small>GTA Etec é bom, joguem, fiquei 12 meses fazendo essa merda pra ninguém jogar, vai se fuder Aline</small>
       </div>
       <img src="img/fBorder.png" width=100% height="2px">
     </footer>
