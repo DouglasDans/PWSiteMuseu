@@ -83,7 +83,7 @@
 
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/obras/A persistência da memória.jpg" width="140px" height="140px"
+            <a href="pagina0.3.html" class=""><img src="img/obras/A_persistencia_da_memoria.jpg" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
