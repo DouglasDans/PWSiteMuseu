@@ -11,43 +11,40 @@
 </head>
 
 <body>
-
-    <div style="z-index:-1; position:absolute">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/obras/autorretrato.jpg" class="d-block w-100"  alt="...">
+    <!-- AINDA TEM TRABALHO PRA FAZER AQUI, MAS POR ENQUANTO É ISSO -->
+    <div class="view pt-5 pb-5" style="background-image: url(img/obras/A_persistencia_da_memoria.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
+        <div class="container mt-4 mb-4">
+            <div class="justify-content-center">
+                <div class="card text-center areaLogin w-50 mx-auto p-4">
+                    <div class="row">
+                        <form class="p-4" method="POST" action="valida-login.php">
+                            <img src="img/bigode_dali.png" class="pb-4 bigode img-fluid">
+                            <h1 class="display-4">Entrar</h1>
+                            <label class="font-weight-bold mt-2">Login</label>
+                            <input type="text" class="form-control" id="txtLogin" name="txtLogin" placeholder="Insira o seu login" required>
+                            <br>
+                            <label class="font-weight-bold">Senha:</label>
+                            <input type="password" class="form-control" name="txtSenha" id="txtSenha" placeholder="Insira a sua senha" required>
+                            <br>
+                            <div class="row pl-2 pr-2">
+                                <button type="submit" value="Logar" class="btn-block btn-lg btn-outline-warning">Logar</button>
+                            </div>
+                            <div class="row pl-2 pr-2">
+                                <p class="mt-3">Problemas com o login?</p>
+                                <p><a href="https://www.youtube.com/watch?v=IZuO0My23Xw">Esqueci minha senha</a></p>
+                            </div>
+                            <div class="row pl-2 pr-2">
+                                <p class="mt-3">É novo por aqui?</p>
+                                <p><a href="https://www.youtube.com/watch?v=moZtoMP7HAA&">Registrar-se</a></p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <p class="mt-4 mb-0 text-muted">© 2020 Avilax - Parceria entre Paralax e Aviaras</p>
+                        <p class="mt-0 mb-0 text-muted position-sticky">Site criado para aprovação de Vanessa Ferraz</p>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/obras/Cristo_sao_joao_da_cruz.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container " style="z-index:1">
-        <div class="text-center mx-auto p-5 mt-5">
-            <form class=" bg-blur bg-pers1 form p-4 rounded-lg shadow orc">
-                <h1 class="font-weight-normal">Login</h1>
-                <div class="text-left">Nome de usuário:</div>
-                <input type="text" class="form-control" id="name" name="txtlogin" placeholder="Seu Nome" required>
-
-                <br>
-                <div class="text-left">Senha:</div>
-                <input type="password" class="form-control" name="txtlogin" id="validationCustom05"
-                    placeholder="Sua Senha" required>
-                <br>
-                <button type="cancel" class="btn btn-danger">Cancelar</button>
-                <button type="submit" value="Acessar" class="btn btn-primary ml-2">Enviar</button>
-            </form>
-            <p class="mt-5 mb-0 text-muted">© 2019 TransFender, empresa do Grupo Liga</p>
-            <p class="mt-0 mb-5 text-muted"><a href="https://www.youtube.com/watch?v=IZuO0My23Xw">Esqueci minha
-                    senha</a></p>
-            </p>
-            <p class="mt-0 mb-0 text-muted position-sticky">Site criado para aprovação de Vanessa Ferraz</p>
+            </div>    
         </div>
     </div>
 </body>

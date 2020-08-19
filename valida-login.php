@@ -1,6 +1,6 @@
 <?php
-    $login = $_POST['txtlogin'];
-    $senha = $_POST['txtsenha'];
+    $login = $_POST['txtLogin'];
+    $senha = $_POST['txtSenha'];
 
     if (($login == 'adm') && ($senha == '123')){
         session_start();
