@@ -10,33 +10,36 @@
 </head>
 
 <body class="bg-pers1 text-white">
-  <header class="justify-content-end">
+  <header>
     <div class="nav-container justify-content-end">
-      <nav class="navbar navbar-expand-md navbar-white p-0 justify-content-end bg-blur bg-pers0 p-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
-          <a class="nav-link" href="index.html"><img src="img/dalidaonde.png" height="40px"></a>
-          </div>
-          <div class="col">
-            <a class="nav-link mt-2" href="index.html">Home</a>
-          </div>
-          <div class="col">
-            <a class="nav-link mt-2" href="produtos.html">Produtos</a>
-          </div>
-          <div class="col">
-            <a class="nav-link mt-2" href="quemsomos.html">Quem Somos</a>
-          </div>
-          <div class="col">
-            <a class="nav-link mt-2" href="contato.html">Fale Conosco</a>
-          </div>
-          <div class="col p-1 bg-dark rounded-lg text-center">
-                            <font class=" text-white">Não Conectado</font><small><a href="login.php" style="top:30px"
-                                    class=" position-absolute nav-link text-decoration-none text-center text-white mt-2 ml-3">Fazer Login</a>
-                            </small>
-                        </div>
+      <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu">
+        <a class="navbar-brand pl-2" href="index.php">
+          <img src="img/dalidaonde.png" height="40px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto text-center justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php"><p class="textoMenu"">Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><p class="textoMenu">Ingressos</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><p class="textoMenu">Parceria</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><p class="textoMenu">Fale Conosco</p></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav text-center justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="login.php"><p class="textoMenu">Login <i class="fas fa-user-circle"></i></p></a>
+            </li>
+          </ul>
         </div>
-      </div>
       </nav>
     </div>
   </header>
@@ -69,7 +72,6 @@
             </div>
           </div>
         </div>
-
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
             <a href="pagina0.3.html" class=""><img src="img/fachada_museu_dali.jpg" width="140px" height="140px"
@@ -151,7 +153,7 @@
           <div class="col-12 col-md-5 order-md-1">
             <img
               src="https://vignette.wikia.nocookie.net/dyomworld/images/6/61/PgPtP.png/revision/latest/scale-to-width-down/340?cb=20110827122357"
-              alt="" height="300px">
+              alt="">
             <br><small>*imagem ilustrativa, perdi tbm foi mals</small>
           </div>
         </div>
@@ -191,6 +193,8 @@
       </div>
       <img src="img/fBorder.png" width=100% height="2px">
     </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </body>
 
 </html>
