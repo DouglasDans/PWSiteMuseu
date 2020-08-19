@@ -30,9 +30,11 @@
           <div class="col">
             <a class="nav-link mt-2" href="contato.html">Fale Conosco</a>
           </div>
-          <div class="col">
-            <a class="nav-link mt-2" href="login.php">Testando Login</a>
-          </div>
+          <div class="col p-1 bg-dark rounded-lg text-center">
+                            <font class=" text-white">Não Conectado</font><small><a href="login.php" style="top:30px"
+                                    class=" position-absolute nav-link text-decoration-none text-center text-white mt-2 ml-3">Fazer Login</a>
+                            </small>
+                        </div>
         </div>
       </div>
       </nav>
@@ -94,49 +96,26 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="text-left gta-gCard text-center p-1 rounded-sm">
-            <a href="https://etecspgov-my.sharepoint.com/:f:/g/personal/douglas_sousa43_etec_sp_gov_br/En-ALtGgqtdNrzdDAUyLWQkBFQa9JqsBIAX51tiKqRILKA?e=UdF0qS"
-              class=""><img src="img/fc4a11c8-b099-4ab8-982d-cbee960f389f.jpg" width="140px" height="190px" class="rounded-lg p-0 mx-auto" alt="..."></a>
-            <div class="ml-2">
-              <div class="font-weight-bold text-center">
-                GTA Etec Códiogo-Fonte<br>
-                <small style="font-size: 60%">Todas as imagens e vídeos usados o jogo</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="text-left gta-gCard text-center p-1 rounded-sm">
-            <a href="https://etecspgov-my.sharepoint.com/:u:/g/personal/douglas_sousa43_etec_sp_gov_br/EUHNu6UXYGNGlYAGg1Q-m3QB0scvynpkMpeu5txlclC8QA"
-              class=""><img src="img/onlie.png" width="140px" height="190px" class="rounded-lg p-0 mx-auto"
-                alt="..."></a>
-            <div class="ml-2">
-              <div class="font-weight-bold text-center">
-                GTA Etec 1.1 Online<br>
-                <small style="font-size: 60%">Lançamento: Abril de 2020</small>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
     <!-- DAQUI PRA BAIXO TA TUDO BUGADO, DPS EU TENTO ARRUMAR, E PUTA RODAPÉ FEIO EM DOUGLAS, ESPERAVA MAIS DE VOCÊ -->
+    <!-- Você que mudou o rodapé, o original era simples, minimalista, e bonito -->
     
-    <div class="parceria container-fluid flush-with-above p-5">
-      <div class="row">
-        <div class="col-3">
-          <img src="img/DD-Paralax.png" class="img-fluid">
+    <div class="parceria container-fluid flush-with-above p-5 bg-pers0">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/DD-Paralax.png" class="img-fluid">
+                </div>
+                <div class="col-6 text-center">
+                    <h1 class="display-5 font-weight-bold">UMA PARCERIA INÉDITA</h1>
+                    <small>Por essa ninguém esperava, Paralax & Aviras juntas por um bem maior. <br>Nós sabemos da importância de Dalí para o mundo, com isso, as rivais Paralax DD Livros e Aviras <br> se juntaram para a criação de um grande acervo digital de Salvador Dalí.</small>
+                </div>
+                <div class="col-3">
+                    <img src="img/logoMista.png" class="img-fluid">
+                </div>
+            </div>
         </div>
-        <div class="col-6 text-center">
-          <h1 class="display-5">UMA PARCERIA INÉDITA</h1>
-        </div>
-        <div class="col-3">
-          <img src="img/logoMista.png" class="img-fluid">
-        </div>
-      </div>
-    </div>
 
     <div class="container-fluid flush-with-above p-5 text-right">
       <div class="row justify-content-around align-items-center">
@@ -195,7 +174,7 @@
 
 
   </main>
-</body>
+
     <footer class="text-white bg-dark">
       <div class="container-fluid row text-left pt-4">
         <div class="col-6 float-left">
@@ -212,5 +191,6 @@
       </div>
       <img src="img/fBorder.png" width=100% height="2px">
     </footer>
+</body>
 
 </html>
