@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto text-center justify-content-start">
             <li class="nav-item">
-              <a class="nav-link" href="index.php"><p class="textoMenu"">Home</p></a>
+              <a class="nav-link" href="index.php"><p class="textoMenu">Home</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link"><p class="textoMenu">Ingressos</p></a>
