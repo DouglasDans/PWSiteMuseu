@@ -11,8 +11,8 @@
 
 <body class="bg-pers1 text-white">
   <header>
-    <div class="nav-container justify-content-end">
-      <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu">
+    <div class="nav-container">
+      <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
         <a class="navbar-brand pl-2" href="index.php">
           <img src="img/dalidaonde.png" height="40px">
         </a>
@@ -36,7 +36,7 @@
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" href="login.php"><p class="textoMenu">Login <i class="fas fa-user-circle"></i></p></a>
+              <a class="nav-link" href="login.php"><p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p></a>
             </li>
           </ul>
         </div>
@@ -177,7 +177,7 @@
 
   </main>
 
-    <footer class="text-white bg-dark">
+    <!--<footer class="text-white bg-dark">
       <div class="container-fluid row text-left pt-4">
         <div class="col-6 float-left">
           <img src="img/DD-Rmk-W.png" height="30px">
@@ -192,6 +192,41 @@
         <small>GTA Etec é bom, joguem, fiquei 12 meses fazendo essa merda pra ninguém jogar, vai se fuder Aline</small>
       </div>
       <img src="img/fBorder.png" width=100% height="2px">
+    </footer>-->
+    <footer class="pt-2 bordaRodape bg-pers0">
+      <div class="container-fluid">
+        <div class="row pl-5 pr-5">
+          <div class="col-md-3 pt-3 pb-3">
+            <img class="mb-2 img-fluid" src="img/DD-Paralax.png">
+          </div>
+          <div class="col-md-6">
+            <!-- nao coloca nada aqui nao -->
+          </div>
+          <div class="col-md-3 pt-3 pb-3">
+            <img class="mb-2 img-fluid" src="img/logoMista.png">
+          </div>
+        </div>
+        <div class="row text-center pt-4">
+          <div class="col-md-4 pb-5">
+            <h3>Sobre</h3>
+            <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="text-muted textoRodape">Equipe</a>
+            <br>
+            <a href="https://github.com/DouglasDans/PWSiteMuseu" class="text-muted textoRodape">Github</a>
+          </div>
+          <div class="col-md-4 pb-5">
+            <h3>Fale Conosco</h3>
+            <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="text-muted textoRodape">Telefone</a>
+            <br>
+            <a href="https://www.youtube.com/watch?v=Sm0WPGfg-L4" class="text-muted textoRodape">Email</a>
+          </div>
+          <div class="col-md-4 pb-5">
+            <h3>Sem Ideia</h3>
+            <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="text-muted textoRodape">Não sei</a>
+            <br>
+            <a href="https://www.youtube.com/watch?v=ZyJB7-lnUyk" class="text-muted textoRodape">O que colocar</a>
+          </div>
+        </div>
+      </div>
     </footer>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">

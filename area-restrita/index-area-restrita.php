@@ -6,42 +6,46 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="shortcut icon" type="../img/x-icon" href="./favicon.ico">
 </head>
 
 <body class="bg-pers1 text-white">
-    <header class="justify-content-end">
-        <div class="nav-container justify-content-end">
-            <nav class="navbar navbar-expand-md navbar-white p-0 justify-content-end bg-blur bg-pers0 p-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4">
-                            <a class="nav-link" href="index.html"><img src="../img/dalidaonde.png" height="40px"></a>
-                        </div>
-                        <div class="col">
-                            <a class="nav-link mt-2" href="index.html">Home</a>
-                        </div>
-                        <div class="col">
-                            <a class="nav-link mt-2" href="produtos.html">Produtos</a>
-                        </div>
-                        <div class="col">
-                            <a class="nav-link mt-2" href="quemsomos.html">Quem Somos</a>
-                        </div>
-                        <div class="col">
-                            <a class="nav-link mt-2" href="contato.html">Fale Conosco</a>
-                        </div>
-                        <div class="col p-1 bg-dark rounded-lg">
-                            <img src="../img/loadsc7.png" class=" rounded-circle mr-3" style="height: 30px;"
-                                title="Seu Perfil">
-                            <font class=" text-white">Olá Vanessa </font><small><a href="../logout.php" style="top:30px"
-                                    class=" position-absolute nav-link text-decoration-none text-white mt-2 ml-4">Sair</a>
-                            </small>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+<header>
+    <div class="nav-container">
+      <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
+        <a class="navbar-brand pl-2" href="index.php">
+          <img src="../img/dalidaonde.png" height="40px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto text-center justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php"><p class="textoMenu">Home</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><p class="textoMenu">Ingressos</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><p class="textoMenu">Parceria</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><p class="textoMenu">Fale Conosco</p></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav text-center justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link"><p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../index.php"><p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p></a>
+            </li>
+          </ul>
         </div>
-    </header>
+      </nav>
+    </div>
+  </header>
 
     <main>
         <div id="home-img">
@@ -87,7 +91,7 @@
 
                 <div class="col">
                     <div class="gta-gCard text-center p-1 rounded-sm">
-                        <a href="pagina0.3.html" class=""><img src="../img/obras/A persistência da memória.jpg"
+                        <a href="pagina0.3.html" class=""><img src="../img/obras/A_persistencia_da_memoria.jpg"
                                 width="140px" height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
                         <div>
                             <div class="text-center">
@@ -206,22 +210,44 @@
 
 
     </main>
+    <footer class="pt-2 bordaRodape bg-pers0">
+      <div class="container-fluid">
+        <div class="row pl-5 pr-5">
+          <div class="col-md-3 pt-3 pb-3">
+            <img class="mb-2 img-fluid" src="../img/DD-Paralax.png">
+          </div>
+          <div class="col-md-6">
+            <!-- nao coloca nada aqui nao -->
+          </div>
+          <div class="col-md-3 pt-3 pb-3">
+            <img class="mb-2 img-fluid" src="../img/logoMista.png">
+          </div>
+        </div>
+        <div class="row text-center pt-4">
+          <div class="col-md-4 pb-5">
+            <h3>Sobre</h3>
+            <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="text-muted textoRodape">Equipe</a>
+            <br>
+            <a href="https://github.com/DouglasDans/PWSiteMuseu" class="text-muted textoRodape">Github</a>
+          </div>
+          <div class="col-md-4 pb-5">
+            <h3>Fale Conosco</h3>
+            <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="text-muted textoRodape">Telefone</a>
+            <br>
+            <a href="https://www.youtube.com/watch?v=Sm0WPGfg-L4" class="text-muted textoRodape">Email</a>
+          </div>
+          <div class="col-md-4 pb-5">
+            <h3>Sem Ideia</h3>
+            <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="text-muted textoRodape">Não sei</a>
+            <br>
+            <a href="https://www.youtube.com/watch?v=ZyJB7-lnUyk" class="text-muted textoRodape">O que colocar</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </body>
-<footer class="text-white bg-dark">
-    <div class="container-fluid row text-left pt-4">
-        <div class="col-6 float-left">
-            <img src="../img/DD-Rmk-W.png" height="30px">
-        </div>
-        <div class="col-6 text-right">
-            <img src="../img/logoMista.png" height="30px" class="ml-5">
-        </div>
-    </div>
-    <div class="container-fluid row text-center p-3">
-        <small>DD Livros é uma marca registrada Paralax Company © 2019</small>
-        <br>
-        <small>© 2019 Paralax Design Site 5 é uma marca Grupo Liga</small>
-    </div>
-    <img src="img/fBorder.png" width=100% height="2px">
-</footer>
+
 
 </html>

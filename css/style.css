@@ -91,3 +91,18 @@ header {
     height: 80px;
     width: 260px;
 }
+
+.bordaRodape {
+    border-top: gold;
+    border-width: 1px;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.textoRodape {
+    text-decoration: none;
+}
+
+.textoRodape:hover {
+    text-decoration: none;
+}
