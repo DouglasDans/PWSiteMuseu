@@ -212,8 +212,10 @@
           </div>
         </div>
       </div>
-      <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
-      <center><small class="text-center">Aviaras ©2020 Danylo.inc</small></center>
+      <div class="bordaRodape bg-pers1">
+        <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
+        <center><small class="text-center">Aviaras ©2020 Aviaras Family</small></center>
+      </div>
     </footer>
     
     <script src="js/bootstrap.min.js"></script>

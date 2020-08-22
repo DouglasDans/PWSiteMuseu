@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
 <body class="bg-pers1 text-white">
@@ -117,7 +117,7 @@
         </div>
         <div class="col-md-6 text-center p-3">
           <h1 class="display-5 font-weight-bold">UMA PARCERIA INÉDITA</h1>
-          <small>Por essa ninguém esperava, Paralax & Aviras juntas por um bem maior. <br>Nós sabemos da importância de Dalí para o mundo, com isso, as rivais Paralax DD Livros e Aviras <br> se juntaram para a criação de um grande acervo digital de Salvador Dalí.</small>
+          <small>Por essa ninguém esperava, Paralax & Aviras juntas por um bem maior. <br>Nós sabemos da importância de Dalí para o mundo, com isso, as rivais Paralax DD Livros e Aviras se juntaram para a criação de um grande acervo digital de Salvador Dalí.</small>
         </div>
         <div class="col-md-3">
           <img src="../img/logoMista.png" class="img-fluid">
@@ -221,8 +221,10 @@
           </div>
         </div>
       </div>
-      <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
-      <center><small class="text-center">Aviaras ©2020 Danylo.inc</small></center>
+      <div class="bordaRodape bg-pers1">
+        <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
+        <center><small class="text-center">Aviaras ©2020 Aviaras Family</small></center>
+      </div>
     </footer>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">

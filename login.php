@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-    <title>Document</title>
+    <title>Login - Salvador Dalí</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
                 <div class="card text-center areaLogin w-50 mx-auto p-4">
                     <div class="row">
                         <form class="p-4" method="POST" action="valida-login.php">
-                            <img src="img/bigode_dali.png" class="pb-4 bigode img-fluid">
+                            <img src="img/daliVetor.png" class="pb-4 bigode img-fluid">
                             <h1 class="display-4">Entrar</h1>
                             <label class="font-weight-bold mt-2">Login</label>
                             <input type="text" class="form-control" id="txtLogin" name="txtLogin" placeholder="Insira o seu login" required>
@@ -40,7 +40,7 @@
                         </form>
                     </div>
                     <div class="row">
-                        <p class="mt-4 mb-0 text-muted">© 2020 Avilax - Parceria entre Paralax e Aviaras</p>
+                        <p class="mt-4 mb-0 text-muted">© 2020 DDLivros & Aviaras - Parceria entre Paralax e Aviaras</p>
                         <p class="mt-0 mb-0 text-muted position-sticky">Site criado para aprovação de Vanessa Ferraz</p>
                     </div>
                 </div>

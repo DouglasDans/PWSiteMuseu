@@ -91,8 +91,8 @@ header {
 }
 
 .bigode {
-    height: 80px;
-    width: 260px;
+    height: 100px;
+    width: auto;
 }
 
 .bordaRodape {
