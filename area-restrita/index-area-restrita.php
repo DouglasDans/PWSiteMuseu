@@ -45,7 +45,7 @@
                 <a class="nav-link"><p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../index.php"><p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p></a>
+                <a class="nav-link" href="../logout.php"><p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p></a>
             </li>
           </ul>
         </div>
