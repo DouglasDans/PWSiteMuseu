@@ -10,6 +10,9 @@
 </head>
 
 <body class="bg-pers1 text-white">
+<?php
+  include("valida-sentinela.php");
+?>
 <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
@@ -22,7 +25,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto text-center justify-content-start">
             <li class="nav-item">
-              <a class="nav-link" href="index.php"><p class="textoMenu">Home</p></a>
+              <a class="nav-link" href="index-area-restrita.php"><p class="textoMenu">Home</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link"><p class="textoMenu">Ingressos</p></a>
