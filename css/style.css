@@ -61,6 +61,9 @@ header {
 
 .imgDestaqueMenu {
     border-radius: 50%;
+    border: gold;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .divDestaqueMenu {
@@ -90,4 +93,30 @@ header {
 .bigode {
     height: 80px;
     width: 260px;
+}
+
+.bordaRodape {
+    border-top: gold;
+    border-width: 1px;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.textoRodape {
+    text-decoration: none;
+}
+
+.textoRodape:hover {
+    text-decoration: none;
+}
+
+.linhaTitulo {
+    border-bottom: gray;
+    border-width: 2px;
+    border-bottom-style: solid;
+}
+
+.obraHome {
+    height: 600px;
+    width: auto;
 }
