@@ -100,6 +100,72 @@
                 <p class="h2">Acervo</p>
                 <p>Visite as obras do grande artista do surrealismo</p>
               </div>
+            <div class="row">
+                <div class="col">
+                    <div class="gta-gCard text-center p-1 rounded-sm">
+                        <a href="pagina0.3.html" class=""><img src="../img/salvador-dali-redondo.jpg" width="140px"
+                                height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+                        <div>
+                            <div class="text-center">
+                                <p class="h2">Biografia</p>
+                                <p>Aprenda quem foi e como viveu Salvador Dalí</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gta-gCard text-center p-1 rounded-sm">
+                        <a href="pagina0.3.html" class=""><img src="../img/fachada_museu_dali.jpg" width="140px"
+                                height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+                        <div>
+                            <div class="text-center">
+                                <p class="h2">Ingressos</p>
+                                <p>Adquira o seu passe para o museu digital de Dalí</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="gta-gCard text-center p-1 rounded-sm">
+                        <a href="pagina0.3.html" class=""><img src="../img/obras/A_persistencia_da_memoria.jpg"
+                                width="140px" height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+                        <div>
+                            <div class="text-center">
+                                <p class="h2">Acervo</p>
+                                <p>Visite as obras do grande artista do surrealismo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="text-left gta-gCard text-center p-1 rounded-sm">
+                        <a href="https://etecspgov-my.sharepoint.com/:f:/g/personal/douglas_sousa43_etec_sp_gov_br/En-ALtGgqtdNrzdDAUyLWQkBFQa9JqsBIAX51tiKqRILKA?e=UdF0qS"
+                            class=""><img src="../img/fc4a11c8-b099-4ab8-982d-cbee960f389f.jpg" width="140px"
+                                height="190px" class="rounded-lg p-0 mx-auto" alt="..."></a>
+                        <div class="ml-2">
+                            <div class="font-weight-bold text-center">
+                                GTA Etec Códiogo-Fonte<br>
+                                <small style="font-size: 60%">Todas as imagens e vídeos usados o jogo</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-left gta-gCard text-center p-1 rounded-sm">
+                        <a href="https://etecspgov-my.sharepoint.com/:u:/g/personal/douglas_sousa43_etec_sp_gov_br/EUHNu6UXYGNGlYAGg1Q-m3QB0scvynpkMpeu5txlclC8QA"
+                            class=""><img src="../img/onlie.png" width="140px" height="190px"
+                                class="rounded-lg p-0 mx-auto" alt="..."></a>
+                        <div class="ml-2">
+                            <div class="font-weight-bold text-center">
+                                GTA Etec 1.1 Online<br>
+                                <small style="font-size: 60%">Lançamento: Abril de 2020</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
