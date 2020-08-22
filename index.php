@@ -100,9 +100,6 @@
 
       </div>
     </div>
-
-    <!-- DAQUI PRA BAIXO TA TUDO BUGADO, DPS EU TENTO ARRUMAR, E PUTA RODAPÉ FEIO EM DOUGLAS, ESPERAVA MAIS DE VOCÊ -->
-    <!-- Você que mudou o rodapé, o original era simples, minimalista, e bonito -->
     
     <div class="parceria container-fluid flush-with-above p-5 bg-pers0 text-center">
       <div class="row align-items-center">
