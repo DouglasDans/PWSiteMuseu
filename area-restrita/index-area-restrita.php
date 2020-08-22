@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 </head>
 
 <body class="bg-pers1 text-white">
@@ -221,6 +221,8 @@
           </div>
         </div>
       </div>
+      <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
+      <center><small class="text-center">Aviaras ©2020 Danylo.inc</small></center>
     </footer>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
