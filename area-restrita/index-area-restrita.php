@@ -16,7 +16,7 @@
 <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
-        <a class="navbar-brand pl-2" href="index.php">
+        <a class="navbar-brand pl-2" href="index-area-restrita.php">
           <img src="../img/dalidaonde.png" height="40px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
