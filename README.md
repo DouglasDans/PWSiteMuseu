@@ -8,6 +8,6 @@
 # Lista do que fazer parte 2
 
 - [x] Montar o formulário
-- [] Montar a tabela
-- [] Fazer isso funcionar
-- [] Deixar o site melhor
+- [ ] Montar a tabela
+- [ ] Fazer isso funcionar
+- [ ] Deixar o site melhor
