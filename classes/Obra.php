@@ -5,6 +5,7 @@
       private $nomeObra;
       private $categoriaObra;
       private $periodoObra;
+      private $anoObra;
 
       public function getIdObra(){
          return $this->idObra;
@@ -38,14 +39,23 @@
          $this->periodoObra = $periodoObra;
       }
 
+      public function getAnoObra(){
+         return $this->anoObra;
+      }
+
+      public function setAnoObra($anoObra){
+         $this->anoObra = $anoObra;
+      }
+
       public function cadastrar($obra){
          $conexao = Conexao::pegarConexao();
-         $stmt = $conexao->prepare("INSERT INTO tbobra (nomeObra, categoriaObra, periodoObra)
-                                       VALUES (?,?,?)");
+         $stmt = $conexao->prepare("INSERT INTO tbobra (nomeObra, categoriaObra, periodoObra, anoObra)
+                                       VALUES (?,?,?,?)");
 
          $stmt->bindParam(1, $obra->getNomeObra());
          $stmt->bindParam(2, $obra->getCategoriaObra());
          $stmt->bindParam(3, $obra->getPeriodoObra());
+         $stmt->bindParam(4, $obra->getAnoObra());
          $stmt->execute();
          return 'Cadastro realizado com sucesso!';
       }

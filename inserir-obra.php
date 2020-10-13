@@ -8,6 +8,7 @@
       $obra->setNomeObra($_POST['txtNomeObra']);
       $obra->setCategoriaObra($_POST['txtCategoriaObra']);
       $obra->setPeriodoObra($_POST['txtPeriodoObra']);
+      $obra->setAnoObra($_POST['txtAnoObra']);
       echo $obra->cadastrar($obra);
    }
    catch(Exception $e){

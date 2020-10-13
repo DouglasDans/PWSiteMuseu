@@ -62,11 +62,11 @@
                               <input type="text" class="form-control text-center" id="txtNomeObra" name="txtNomeObra" placeholder="Ex: Galetea de Esferas" required>
                               <label class="labelFormulario mt-5 pb-2">Categoria da Obra</label>
                               <input type="text" class="form-control text-center" id="txtCategoriaObra" name="txtCategoriaObra" placeholder="Ex: Quadro, Escultura, etc..." required>
-                              <br>
-                              <label class="labelFormulario mt-3 pb-2">Período da Obra</label>
+                              <label class="labelFormulario mt-5 pb-2">Período da Obra</label>
                               <input type="text" class="form-control text-center" name="txtPeriodoObra" id="txtPeriodoObra" placeholder="Ex: Realismo, Cubismo, Surrealismo, etc..." required>
-                              <br>
-                              <div class="row pl-2 pr-2 mt-2">
+                              <label class="labelFormulario mt-5 pb-2">Ano da Obra</label>
+                              <input type="text" class="form-control text-center" name="txtAnoObra" id="txtAnoObra" placeholder="Por favor inserir o ano no formato de 4 dígitos" required>
+                              <div class="row pl-2 pr-2 mt-5">
                                   <button type="submit" value="CadastrarObra" class="btn-block btn-lg btn-outline-warning">Cadastrar Obra</button>
                               </div>
                           </form>
