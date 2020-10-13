@@ -10,4 +10,4 @@
 - [x] Montar o formulário
 - [x] Montar a tabela (talvez esteja errado)
 - [x] Fazer isso funcionar (EU SOU UM GÊNIO)
-- [] Deixar o site melhor
+- [ ] Deixar o site melhor
