@@ -40,7 +40,7 @@
                         </form>
                     </div>
                     <div class="row">
-                        <p class="mt-4 mb-0 text-muted">© 2020 DDLivros & Aviaras - Parceria entre Paralax e Aviaras</p>
+                        <p class="mt-4 mb-0 text-muted">© 2020 DDLivros & Aviaras - Parceria entre Paralax e Aviaras Technology</p>
                         <p class="mt-0 mb-0 text-muted position-sticky">Site criado para aprovação de Vanessa Ferraz</p>
                     </div>
                 </div>

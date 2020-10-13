@@ -37,7 +37,7 @@
               <a class="nav-link"><p class="textoMenu">Fale Conosco</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><p class="textoMenu">Cadastrar Obra</p></a>
+              <a class="nav-link" href="cadastrar-obra.php"><p class="textoMenu">Cadastrar Obra</p></a>
             </li>
           </ul>
           <ul class="navbar-nav text-center justify-content-end">

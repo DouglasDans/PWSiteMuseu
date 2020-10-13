@@ -194,7 +194,7 @@
         <div class="row text-center pt-4">
           <div class="col-md-4 pb-5">
             <h3 class="linhaTitulo">Sobre</h3>
-            <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="text-muted textoRodape">Equipe</a>
+            <a href="" class="text-muted textoRodape">Equipe</a>
             <br>
             <a href="https://github.com/DouglasDans/PWSiteMuseu" class="text-muted textoRodape">Github</a>
           </div>
@@ -202,7 +202,7 @@
             <h3 class="linhaTitulo">Fale Conosco</h3>
             <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="text-muted textoRodape">Telefone</a>
             <br>
-            <a href="https://www.youtube.com/watch?v=Sm0WPGfg-L4" class="text-muted textoRodape">Email</a>
+            <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="text-muted textoRodape">Email</a>
           </div>
           <div class="col-md-4 pb-5">
           <h3 class="linhaTitulo">Doações</h3>
