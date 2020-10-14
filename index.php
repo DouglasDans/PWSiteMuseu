@@ -31,7 +31,7 @@
               <a class="nav-link"><p class="textoMenu">Parceria</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><p class="textoMenu">Fale Conosco</p></a>
+              <a class="nav-link" href="equipe.php" ><p class="textoMenu">Equipe do Projeto</p></a>
             </li>
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
@@ -48,8 +48,8 @@
     <div id="home-img">
       <div class="carousel-caption">
         <blockquote class="blockquote text-right">
-          <h1 class="display-1">Eu sou o surrealismo!</h1>
-          <footer class="blockquote-footer" style="color: white;">Salvador Dalí</cite></footer>
+          <h1 class="display-1 bg-blur rounded-sm ">Eu sou o surrealismo!</h1>
+          <footer class="blockquote-footer bg-blur" style="color: white;">Salvador Dalí</cite></footer>
         </blockquote>
       </div>
     </div>
