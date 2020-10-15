@@ -16,27 +16,38 @@
         <a class="navbar-brand pl-2" href="index.php">
           <img src="img/dalidaonde.png" height="40px">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto text-center justify-content-start">
             <li class="nav-item">
-              <a class="nav-link" href="index.php"><p class="textoMenu">Home</p></a>
+              <a class="nav-link" href="index.php">
+                <p class="textoMenu">Home</p>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><p class="textoMenu">Ingressos</p></a>
+              <a class="nav-link" href="sessao.php">
+                <p class="textoMenu">Obras de Dalí</p>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><p class="textoMenu">Parceria</p></a>
+              <a class="nav-link" href="biografia.php">
+                <p class="textoMenu">Biografia de Dalí</p>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="equipe.php" ><p class="textoMenu">Equipe do Projeto</p></a>
+              <a class="nav-link" href="equipe.php">
+                <p class="textoMenu">Equipe do Projeto</p>
+              </a>
             </li>
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" href="login.php"><p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p></a>
+              <a class="nav-link" href="login.php">
+                <p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p>
+              </a>
             </li>
           </ul>
         </div>
@@ -87,8 +98,8 @@
 
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/obras/A_persistencia_da_memoria.jpg" width="140px" height="140px"
-                class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+            <a href="pagina0.3.html" class=""><img src="img/obras/A_persistencia_da_memoria.jpg" width="140px"
+                height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Acervo</p>
@@ -100,7 +111,7 @@
 
       </div>
     </div>
-    
+
     <div class="parceria container-fluid flush-with-above p-5 bg-pers0 text-center">
       <div class="row align-items-center">
         <div class="col-md-3">
@@ -108,7 +119,9 @@
         </div>
         <div class="col-md-6 text-center p-3">
           <h1 class="display-5 font-weight-bold">UMA PARCERIA INÉDITA</h1>
-          <small>Por essa ninguém esperava, Paralax & Aviras juntas por um bem maior. <br>Nós sabemos da importância de Dalí para o mundo, com isso, as rivais Paralax DD Livros e Aviras se juntaram para a criação de um grande acervo digital de Salvador Dalí.</small>
+          <small>Por essa ninguém esperava, Paralax & Aviras juntas por um bem maior. <br>Nós sabemos da importância de
+            Dalí para o mundo, com isso, as rivais Paralax DD Livros e Aviras se juntaram para a criação de um grande
+            acervo digital de Salvador Dalí.</small>
         </div>
         <div class="col-md-3">
           <img src="img/logoMista.png" class="img-fluid">
@@ -122,7 +135,8 @@
           <h5 class="h1">Um Museu 100% Digital</h5>
           <p class="lead text-justify">
             Nesse site buscamos passar a experiência completa de um museu convencional, porém, ainda melhor!
-            prometemos te entregar uma visita "surreal" que irá te levar em uma viagem pela vida e obras de Salvador Dalí
+            prometemos te entregar uma visita "surreal" que irá te levar em uma viagem pela vida e obras de Salvador
+            Dalí
           </p>
         </div>
         <div class="col-12 col-md-5 order-md-1">
@@ -131,16 +145,17 @@
         </div>
       </div>
     </div>
-    
-   
+
+
     <div class="container-fluid flush-with-above p-5 text-center">
       <div class="row justify-content-around align-items-center">
         <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
           <span class="title-decorative">E por que Salvador Dalí?</span>
           <h3 class="h1">O mestre do surrealismo!</h3>
           <span class="lead text-justify">
-            Conhecido pelo seu trabalhos surrealista, suas obras nos chamam a atenção por misturar a realidade com 
-            um mundo imaginário, muitas delas são capazes de darem nós em nossas cabeças, e, sem dúvidas, nos divertirmos
+            Conhecido pelo seu trabalhos surrealista, suas obras nos chamam a atenção por misturar a realidade com
+            um mundo imaginário, muitas delas são capazes de darem nós em nossas cabeças, e, sem dúvidas, nos
+            divertirmos
             enquanto tentamos decifrar seus segredos!
           </span>
         </div>
@@ -157,7 +172,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="container-fluid text-center pb-4 pt-4" style="background: white;">
       <div class="row">
         <div class="col">
@@ -171,55 +186,57 @@
           <img src="img/Americanas-empresas_home_marcas_11_lenovo.png" class="img-fluid">
           <img src="img/Americanas-empresas_MARCAS_marcas_13_microsoft.png" class="img-fluid">
           <img src="img/Americanas-empresas_MARCAS_marcas_14_intel.png" class="img-fluid">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/UE_Logo_Black_Centered.svg" height="190px"
+            width="190px" class="img-fluid">
         </div>
       </div>
     </div>
 
 
-
   </main>
-    <footer class="pt-2 bordaRodape bg-pers0">
-      <div class="container-fluid">
-        <div class="row pl-5 pr-5">
-          <div class="col-md-3 pt-3 pb-3">
-            <img class="mb-2 img-fluid" src="img/DD-Paralax.png">
-          </div>
-          <div class="col-md-6">
-            <!-- nao coloca nada aqui nao -->
-          </div>
-          <div class="col-md-3 pt-3 pb-3">
-            <img class="mb-2 img-fluid" src="img/logoMista.png">
-          </div>
+  <footer class="pt-2 bordaRodape bg-pers0">
+    <div class="container-fluid">
+      <div class="row pl-5 pr-5">
+        <div class="col-md-3 pt-3 pb-3">
+          <img class="mb-2 img-fluid" src="img/DD-Paralax.png">
         </div>
-        <div class="row text-center pt-4">
-          <div class="col-md-4 pb-5">
-            <h3 class="linhaTitulo">Sobre</h3>
-            <a href="" class="text-muted textoRodape">Equipe</a>
-            <br>
-            <a href="https://github.com/DouglasDans/PWSiteMuseu" class="text-muted textoRodape">Github</a>
-          </div>
-          <div class="col-md-4 pb-5">
-            <h3 class="linhaTitulo">Fale Conosco</h3>
-            <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="text-muted textoRodape">Telefone</a>
-            <br>
-            <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="text-muted textoRodape">Email</a>
-          </div>
-          <div class="col-md-4 pb-5">
+        <div class="col-md-6">
+          <!-- nao coloca nada aqui nao pq? -->
+        </div>
+        <div class="col-md-3 pt-3 pb-3">
+          <img class="mb-2 img-fluid" src="img/logoMista.png">
+        </div>
+      </div>
+      <div class="row text-center pt-4">
+        <div class="col-md-4 pb-5">
+          <h3 class="linhaTitulo">Sobre</h3>
+          <a href="" class="text-muted textoRodape">Equipe</a>
+          <br>
+          <a href="https://github.com/DouglasDans/PWSiteMuseu" class="text-muted textoRodape">Github</a>
+        </div>
+        <div class="col-md-4 pb-5">
+          <h3 class="linhaTitulo">Fale Conosco</h3>
+          <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="text-muted textoRodape">Telefone</a>
+          <br>
+          <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="text-muted textoRodape">Email</a>
+        </div>
+        <div class="col-md-4 pb-5">
           <h3 class="linhaTitulo">Doações</h3>
-            <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="text-muted textoRodape">Bitcoins</a>
-            <br>
-            <a href="https://www.youtube.com/watch?v=000al7ru3ms" class="text-muted textoRodape">Dogecoins</a>
-          </div>
+          <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="text-muted textoRodape">Bitcoins</a>
+          <br>
+          <a href="https://www.youtube.com/watch?v=000al7ru3ms" class="text-muted textoRodape">Dogecoins</a>
         </div>
       </div>
-      <div class="bordaRodape bg-pers1">
-        <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
-        <center><small class="text-center">Aviaras ©2020 Aviaras Family</small></center>
-      </div>
-    </footer>
-    
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    </div>
+    <div class="bordaRodape bg-pers1">
+      <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
+      <center><small class="text-center">Aviaras ©2020 Aviaras Family</small></center>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </body>
 
 </html>
