@@ -109,11 +109,11 @@
         <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
           <h3 class="h1">Livrarias Aviaras</h3>
           <p class="lead text-justify">
-            escreve sua historia ai
+            Criada na Mooca em 1984, rapidamente se tornou a maior livraria do estado de São Paulo com filiais em diversas cidades do estado, passou por uma reformulação nos anos 90 onde passou a focar a sua venda para a internet, recentemente, foi adquirida pela Aperture Science e se transformou em uma empresa que busca soluções digitais, a Aviaras Technology.
           </p>
         </div>
         <div class="col-12 col-md-5 order-md-1">
-          <img src="img/logomista.png" class="img-fluid ">
+          <img src="img/logoAviarasTechnologyFinal.png" class="img-fluid ">
         </div>
       </div>
     </div>

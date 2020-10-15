@@ -9,7 +9,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 </head>
 
-<body class="bg-pers1 text-white">
+<body class="bg-pers0 text-white">
   <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
@@ -48,8 +48,8 @@
     <div id="home-img">
       <div class="carousel-caption">
         <blockquote class="blockquote text-right">
-          <h1 class="display-1 bg-blur rounded-sm ">Eu sou o surrealismo!</h1>
-          <footer class="blockquote-footer bg-blur" style="color: white;">Salvador Dalí</cite></footer>
+          <h1 class="display-1 rounded-sm ">Eu sou o surrealismo!</h1>
+          <footer class="blockquote-footer" style="color: white;">Salvador Dalí</cite></footer>
         </blockquote>
       </div>
     </div>
