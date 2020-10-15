@@ -77,6 +77,12 @@ header {
     background-color: rgb(14, 14, 14) !important;
 }
 
+.bordaTopo {
+    border-top: gold;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
 .parceria {
     border-bottom: gold;
     border-bottom-style: solid;

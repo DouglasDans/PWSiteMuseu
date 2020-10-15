@@ -37,11 +37,6 @@
                 <p class="textoMenu">Biografia de Dalí</p>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="equipe.php">
-                <p class="textoMenu">Equipe do Projeto</p>
-              </a>
-            </li>
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
             <li class="nav-item">
@@ -73,7 +68,7 @@
       <div class="row">
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/salvador-dali-redondo.jpg" width="140px" height="140px"
+            <a href="biografia.php" class=""><img src="img/salvador-dali-redondo.jpg" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
@@ -210,7 +205,7 @@
       <div class="row text-center pt-4">
         <div class="col-md-4 pb-5">
           <h3 class="linhaTitulo">Sobre</h3>
-          <a href="" class="text-muted textoRodape">Equipe</a>
+          <a href="equipe.php" class="text-muted textoRodape">Equipe</a>
           <br>
           <a href="https://github.com/DouglasDans/PWSiteMuseu" class="text-muted textoRodape">Github</a>
         </div>

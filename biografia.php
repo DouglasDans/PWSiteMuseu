@@ -38,11 +38,6 @@
                                 <p class="textoMenu">Biografia de Dalí</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="equipe.php">
-                                <p class="textoMenu">Equipe do Projeto</p>
-                            </a>
-                        </li>
                     </ul>
                     <ul class="navbar-nav text-center justify-content-end">
                         <li class="nav-item">
