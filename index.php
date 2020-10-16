@@ -9,7 +9,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 </head>
 
-<body class="bg-pers0 text-white">
+<body class="bg-dark text-white">
   <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
@@ -29,7 +29,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sessao.php">
-                <p class="textoMenu">Obras de Dalí</p>
+                <p class="textoMenu">Exposição Digital</p>
               </a>
             </li>
             <li class="nav-item">
@@ -80,12 +80,12 @@
         </div>
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/never.png" width="140px" height="140px"
+            <a href="sessao.php" class=""><img src="img/never.png" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Ingressos</p>
-                <p>Saiba como participar dessa experiência</p>
+                <p>Saiba como participar dessa experiência inovadora da Exposição Digital</p>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
 
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/obras/A_persistencia_da_memoria.jpg" width="140px"
+            <a href="sessao.php" class=""><img src="img/obras/A_persistencia_da_memoria.jpg" width="140px"
                 height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
@@ -142,7 +142,7 @@
     </div>
 
 
-    <div class="container-fluid flush-with-above p-5 text-center">
+    <div class="container-fluid flush-with-above p-5 text-center bg-pers2">
       <div class="row justify-content-around align-items-center">
         <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
           <span class="title-decorative">E por que Salvador Dalí?</span>

@@ -28,12 +28,12 @@
               <a class="nav-link" href="index-area-restrita.php"><p class="textoMenu">Home</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../sessao.php">
-                <p class="textoMenu">Obras de Dalí</p>
+              <a class="nav-link" href="sessao.php">
+                <p class="textoMenu">Exposição Digital</p>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../biografia.php">
+              <a class="nav-link" href="biografia.php">
                 <p class="textoMenu">Biografia de Dalí</p>
               </a>
             </li>
@@ -58,7 +58,7 @@
     <div id="home-img">
       <div class="carousel-caption">
         <blockquote class="blockquote text-right">
-          <h1 class="display-1">Eu sou o surrealismo!</h1>
+          <h1 class="display-1 rounded-sm ">Eu sou o surrealismo!</h1>
           <footer class="blockquote-footer" style="color: white;">Salvador Dalí</cite></footer>
         </blockquote>
       </div>
@@ -72,7 +72,7 @@
       <div class="row">
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="../img/salvador-dali-redondo.jpg" width="140px" height="140px"
+            <a href="biografia.php" class=""><img src="../img/salvador-dali-redondo.jpg" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
@@ -84,12 +84,12 @@
         </div>
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="../img/ingressomuseu.png" width="140px" height="140px"
+            <a href="sessao.php" class=""><img src="../img/never.png" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Ingressos</p>
-                <p>Adquira o seu passe para o museu digital de Dalí</p>
+                <p>Saiba como participar dessa experiência inovadora da Exposição Digital</p>
               </div>
             </div>
           </div>
@@ -97,8 +97,8 @@
 
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="../img/obras/A_persistencia_da_memoria.jpg" width="140px" height="140px"
-                class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+            <a href="sessao.php" class=""><img src="../img/obras/A_persistencia_da_memoria.jpg" width="140px"
+                height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Acervo</p>
@@ -110,7 +110,7 @@
 
       </div>
     </div>
-    
+
     <div class="parceria container-fluid flush-with-above p-5 bg-pers0 text-center">
       <div class="row align-items-center">
         <div class="col-md-3">
@@ -118,7 +118,9 @@
         </div>
         <div class="col-md-6 text-center p-3">
           <h1 class="display-5 font-weight-bold">UMA PARCERIA INÉDITA</h1>
-          <small>Por essa ninguém esperava, Paralax & Aviras juntas por um bem maior. <br>Nós sabemos da importância de Dalí para o mundo, com isso, as rivais Paralax DD Livros e Aviras se juntaram para a criação de um grande acervo digital de Salvador Dalí.</small>
+          <small>Por essa ninguém esperava, Paralax & Aviras juntas por um bem maior. <br>Nós sabemos da importância de
+            Dalí para o mundo, com isso, as rivais Paralax DD Livros e Aviras se juntaram para a criação de um grande
+            acervo digital de Salvador Dalí.</small>
         </div>
         <div class="col-md-3">
           <img src="../img/logoMista.png" class="img-fluid">
@@ -132,7 +134,8 @@
           <h5 class="h1">Um Museu 100% Digital</h5>
           <p class="lead text-justify">
             Nesse site buscamos passar a experiência completa de um museu convencional, porém, ainda melhor!
-            prometemos te entregar uma visita "surreal" que irá te levar em uma viagem pela vida e obras de Salvador Dalí
+            prometemos te entregar uma visita "surreal" que irá te levar em uma viagem pela vida e obras de Salvador
+            Dalí
           </p>
         </div>
         <div class="col-12 col-md-5 order-md-1">
@@ -141,16 +144,17 @@
         </div>
       </div>
     </div>
-    
-   
-    <div class="container-fluid flush-with-above p-5 text-center">
+
+
+    <div class="container-fluid flush-with-above p-5 text-center bg-pers2">
       <div class="row justify-content-around align-items-center">
         <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
           <span class="title-decorative">E por que Salvador Dalí?</span>
           <h3 class="h1">O mestre do surrealismo!</h3>
           <span class="lead text-justify">
-            Conhecido pelo seu trabalhos surrealista, suas obras nos chamam a atenção por misturar a realidade com 
-            um mundo imaginário, muitas delas são capazes de darem nós em nossas cabeças, e, sem dúvidas, nos divertirmos
+            Conhecido pelo seu trabalhos surrealista, suas obras nos chamam a atenção por misturar a realidade com
+            um mundo imaginário, muitas delas são capazes de darem nós em nossas cabeças, e, sem dúvidas, nos
+            divertirmos
             enquanto tentamos decifrar seus segredos!
           </span>
         </div>
@@ -167,7 +171,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="container-fluid text-center pb-4 pt-4" style="background: white;">
       <div class="row">
         <div class="col">
@@ -181,10 +185,11 @@
           <img src="../img/Americanas-empresas_home_marcas_11_lenovo.png" class="img-fluid">
           <img src="../img/Americanas-empresas_MARCAS_marcas_13_microsoft.png" class="img-fluid">
           <img src="../img/Americanas-empresas_MARCAS_marcas_14_intel.png" class="img-fluid">
+          <img src="../https://upload.wikimedia.org/wikipedia/commons/2/20/UE_Logo_Black_Centered.svg" height="190px"
+            width="190px" class="img-fluid">
         </div>
       </div>
     </div>
-
 
 
   </main>
@@ -204,7 +209,7 @@
       <div class="row text-center pt-4">
         <div class="col-md-4 pb-5">
           <h3 class="linhaTitulo">Sobre</h3>
-          <a href="../equipe.php" class="textoRodape">Equipe</a>
+          <a href="equipe.php" class="textoRodape">Equipe</a>
           <br>
           <a href="https://github.com/DouglasDans/PWSiteMuseu" class="textoRodape">Github</a>
         </div>
@@ -227,9 +232,10 @@
       <center><small class="text-center">Aviaras ©2020 Aviaras Technology</small></center>
     </div>
   </footer>
-    <script src="../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-</body>
 
+  <script src="../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</body>
 
 </html>

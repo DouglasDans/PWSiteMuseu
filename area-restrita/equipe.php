@@ -1,31 +1,31 @@
 <html lang="pt-br">
 
 <head>
-   <meta charset="UTF-8">
-   <title>Equipe - Salvador Dalí</title>
-   <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <meta charset="UTF-8">
+    <title>Equipe - Salvador Dalí</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
-<body class="bg-dark">
-   <header>
-      <div class="nav-container">
+<body class="bg-pers0 text-white">
+<?php
+  include("valida-sentinela.php");
+?>
+<header>
+    <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
-        <a class="navbar-brand pl-2" href="index.php">
-          <img src="img/dalidaonde.png" height="40px">
+        <a class="navbar-brand pl-2" href="index-area-restrita.php">
+          <img src="../img/dalidaonde.png" height="40px">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto text-center justify-content-start">
             <li class="nav-item">
-              <a class="nav-link" href="index.php">
-                <p class="textoMenu">Home</p>
-              </a>
+              <a class="nav-link" href="index-area-restrita.php"><p class="textoMenu">Home</p></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sessao.php">
@@ -37,18 +37,22 @@
                 <p class="textoMenu">Biografia de Dalí</p>
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastrar-obra.php"><p class="textoMenu">Cadastrar Obra</p></a>
+            </li>
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" href="login.php">
-                <p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p>
-              </a>
+                <a class="nav-link"><p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../logout.php"><p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p></a>
             </li>
           </ul>
         </div>
       </nav>
-      </div>
-   </header>
+    </div>
+  </header>
    <div class="container-fluid text-center bg-pers0 parceria text-white p-3">
       <h1>Equipe do Projeto:</h1>
    </div>
@@ -56,7 +60,7 @@
       <div class="row">
          <div class="col">
             <div class="text-left text-center p-1">
-               <img src="img/diogo.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
+               <img src="../img/diogo.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
                   alt="...">
                <div class="font-weight-bold mt-2 center text-white">
                   Diogo<br>
@@ -66,7 +70,7 @@
          </div>
          <div class="col">
             <div class="text-left text-center p-1">
-               <img src="img/cj.png" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
+               <img src="../img/cj.png" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
                   alt="...">
                <div class="font-weight-bold mt-2 center text-white">
                   Deivid Bryan (Vulgo CJ god)<br>
@@ -76,7 +80,7 @@
          </div>
          <div class="col">
             <div class="text-left text-center p-1">
-               <img src="img/douglas.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
+               <img src="../img/douglas.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
                   alt="...">
                <div class="font-weight-bold mt-2 center text-white">
                   Douglas (vulgo Risadinha)<br>
@@ -87,7 +91,7 @@
          </div>
          <div class="col">
             <div class="text-left text-center p-1">
-               <img src="img/danylo.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
+               <img src="../img/danylo.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
                   alt="...">
                <div class="font-weight-bold mt-2 center text-white">
                   Danylo (Vulgo Italiano)<br>
@@ -115,7 +119,7 @@
             </p>
          </div>
          <div class="col-12 col-md-5 order-md-1">
-            <img src="img/logoAviarasTechnologyFinal.png" class="img-fluid ">
+            <img src="../img/logoAviarasTechnologyFinal.png" class="img-fluid ">
          </div>
       </div>
    </div>
@@ -131,7 +135,7 @@
             </p>
          </div>
          <div class="col-12 col-md-5 order-md-1">
-            <img src="img/dd-paralax.png" class="img-fluid">
+            <img src="../img/dd-paralax.png" class="img-fluid">
          </div>
       </div>
    </div>
@@ -145,7 +149,7 @@
             </p>
          </div>
          <div class="col-12 col-md-5 order-md-1">
-            <img src="img/versao2.png" class="img-fluid areaLogin">
+            <img src="../img/versao2.png" class="img-fluid areaLogin">
          </div>
       </div>
    </div>
@@ -164,7 +168,7 @@
             </p>
          </div>
          <div class="col-12 col-md-5 order-md-1">
-            <img src="img/dali-mask.jpg" class="img-fluid areaLogin">
+            <img src="../img/dali-mask.jpg" class="img-fluid areaLogin">
          </div>
       </div>
    </div>
@@ -173,13 +177,13 @@
       <div class="container-fluid">
          <div class="row pl-5 pr-5">
             <div class="col-md-3 pt-3 pb-3">
-               <img class="mb-2 img-fluid" src="img/DD-Paralax.png">
+               <img class="mb-2 img-fluid" src="../img/DD-Paralax.png">
             </div>
             <div class="col-md-6">
                <!-- nao coloca nada aqui nao -->
             </div>
             <div class="col-md-3 pt-3 pb-3">
-               <img class="mb-2 img-fluid" src="img/logoMista.png">
+               <img class="mb-2 img-fluid" src="../img/logoMista.png">
             </div>
          </div>
          <div class="row text-center pt-4">
@@ -210,7 +214,7 @@
    </footer>
 
 
-   <script src="js/bootstrap.min.js"></script>
+   <script src="../js/bootstrap.min.js"></script>
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
       integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </body>
