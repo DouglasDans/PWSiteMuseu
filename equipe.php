@@ -112,7 +112,7 @@
 
       </div>
    </div>
-   <div class="container-fluid text-center bg-pers0 parceria text-white p-3">
+   <div class="container-fluid text-center bg-pers0 parceria bordaTopo text-white p-3">
       <h1>Quem Realmente somos:</h1>
    </div>
    <div class="container-fluid flush-with-above p-5 text-center text-white bg-dark">
@@ -157,7 +157,7 @@
             </p>
          </div>
          <div class="col-12 col-md-5 order-md-1">
-            <img src="img/marketplace-saraiva.png" class="img-fluid ">
+            <img src="img/versao2.png" class="img-fluid areaLogin">
          </div>
       </div>
    </div>
@@ -176,7 +176,7 @@
             </p>
          </div>
          <div class="col-12 col-md-5 order-md-1">
-            <img src="https://i.redd.it/idcxpkontfh41.png" class="img-fluid">
+            <img src="img/dali-mask.jpg" class="img-fluid areaLogin">
          </div>
       </div>
    </div>

@@ -37,11 +37,6 @@
                 <p class="textoMenu">Biografia de Dalí</p>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="equipe.php">
-                <p class="textoMenu">Equipe do Projeto</p>
-              </a>
-            </li>
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
             <li class="nav-item">
@@ -73,7 +68,7 @@
       <div class="row">
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/salvador-dali-redondo.jpg" width="140px" height="140px"
+            <a href="biografia.php" class=""><img src="img/salvador-dali-redondo.jpg" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
@@ -85,12 +80,12 @@
         </div>
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="pagina0.3.html" class=""><img src="img/ingressomuseu.png" width="140px" height="140px"
+            <a href="pagina0.3.html" class=""><img src="img/never.png" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Ingressos</p>
-                <p>Adquira o seu passe para o museu digital de Dalí</p>
+                <p>Saiba como participar dessa experiência</p>
               </div>
             </div>
           </div>
@@ -201,7 +196,7 @@
           <img class="mb-2 img-fluid" src="img/DD-Paralax.png">
         </div>
         <div class="col-md-6">
-          <!-- nao coloca nada aqui nao pq? -->
+          <!-- nao coloca nada aqui nao -->
         </div>
         <div class="col-md-3 pt-3 pb-3">
           <img class="mb-2 img-fluid" src="img/logoMista.png">
@@ -210,27 +205,27 @@
       <div class="row text-center pt-4">
         <div class="col-md-4 pb-5">
           <h3 class="linhaTitulo">Sobre</h3>
-          <a href="" class="text-muted textoRodape">Equipe</a>
+          <a href="equipe.php" class="textoRodape">Equipe</a>
           <br>
-          <a href="https://github.com/DouglasDans/PWSiteMuseu" class="text-muted textoRodape">Github</a>
+          <a href="https://github.com/DouglasDans/PWSiteMuseu" class="textoRodape">Github</a>
         </div>
         <div class="col-md-4 pb-5">
           <h3 class="linhaTitulo">Fale Conosco</h3>
-          <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="text-muted textoRodape">Telefone</a>
+          <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="textoRodape">Telefone</a>
           <br>
-          <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="text-muted textoRodape">Email</a>
+          <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="textoRodape">Email</a>
         </div>
         <div class="col-md-4 pb-5">
           <h3 class="linhaTitulo">Doações</h3>
-          <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="text-muted textoRodape">Bitcoins</a>
+          <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="textoRodape">Bitcoins</a>
           <br>
-          <a href="https://www.youtube.com/watch?v=000al7ru3ms" class="text-muted textoRodape">Dogecoins</a>
+          <a href="https://www.youtube.com/watch?v=000al7ru3ms" class="textoRodape">Dogecoins</a>
         </div>
       </div>
     </div>
     <div class="bordaRodape bg-pers1">
       <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
-      <center><small class="text-center">Aviaras ©2020 Aviaras Family</small></center>
+      <center><small class="text-center">Aviaras ©2020 Aviaras Technology</small></center>
     </div>
   </footer>
 
