@@ -51,7 +51,7 @@
         </div>
     </header>
     <h1 class="text-white mt-5 text-center">Salvador Domingo Dalí Domènech</h1>
-    <div class="container-fluid flush-with-above p-5 text-center text-white">
+    <div class="container-fluid flush-with-above menu p-5 text-center text-white">
         <div class="row justify-content-around align-items-center">
             <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
                 <h3 class="h1">Nasceu</h3>
@@ -70,7 +70,7 @@
         </div>
     </div>
 
-    <div class="container-fluid flush-with-above p-5 text-center text-white bg-pers2">
+    <div class="container-fluid flush-with-above menu p-5 text-center text-white bg-pers2">
         <div class="row justify-content-around align-items-center text-center">
             <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
                 <h5 class="h1">Cresceu</h5>
@@ -90,7 +90,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid flush-with-above p-5 text-center text-white">
+    <div class="container-fluid flush-with-above menu p-5 text-center text-white">
         <div class="row justify-content-around align-items-center">
             <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
                 <h3 class="h1">Ficou Famoso</h3>
@@ -109,7 +109,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid flush-with-above p-5 text-center text-white bg-pers2">
+    <div class="container-fluid flush-with-above menu p-5 text-center text-white bg-pers2">
         <div class="row justify-content-around align-items-center text-center">
             <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
                 <h5 class="h1">Casou</h5>
@@ -129,7 +129,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid flush-with-above p-5 text-center text-white">
+    <div class="container-fluid flush-with-above menu p-5 text-center text-white">
         <div class="row justify-content-around align-items-center text-center">
             <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
                 <h5 class="h1">Abriu um Museu</h5>

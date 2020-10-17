@@ -103,7 +103,7 @@
    <div class="container-fluid text-center bg-pers0 parceria bordaTopo text-white p-3">
       <h1>Quem Realmente somos:</h1>
    </div>
-   <div class="container-fluid flush-with-above p-5 text-center text-white bg-dark">
+   <div class="container-fluid flush-with-above p-5 menu text-center text-white bg-dark">
       <div class="row justify-content-around align-items-center">
          <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
             <h3 class="h1">Livrarias Aviaras</h3>
@@ -120,7 +120,7 @@
       </div>
    </div>
 
-   <div class="container-fluid flush-with-above p-5 text-center text-white bg-pers2">
+   <div class="container-fluid flush-with-above p-5 menu text-center text-white bg-pers2">
       <div class="row justify-content-around align-items-center text-center">
          <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
             <h5 class="h1">DD Livros</h5>
@@ -135,7 +135,7 @@
          </div>
       </div>
    </div>
-   <div class="container-fluid flush-with-above p-5 text-center text-white bg-dark">
+   <div class="container-fluid flush-with-above p-5 menu text-center text-white bg-dark">
       <div class="row justify-content-around align-items-center">
          <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
             <h3 class="h1">Concorrentes árduos</h3>
