@@ -85,7 +85,7 @@
             <div>
               <div class="text-center">
                 <p class="h2">Ingressos</p>
-                <p>Saiba como participar dessa experiência inovadora da Exposição Digital</p>
+                <p>Saiba como participar dessa experiência inovadora</p>
               </div>
             </div>
           </div>
@@ -93,12 +93,12 @@
 
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="sessao.php" class=""><img src="img/obras/A_persistencia_da_memoria.jpg" width="140px"
+            <a href="equipe.php" class=""><img src="img/equipe.jpg" width="140px"
                 height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
-                <p class="h2">Acervo</p>
-                <p>Visite as obras do grande artista do surrealismo</p>
+                <p class="h2">Equipe</p>
+                <p>Conheça quem está por trás desse projeto</p>
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid flush-with-above p-5 text-center">
+    <div class="container-fluid flush-with-above menu p-5 text-center">
       <div class="row justify-content-around align-items-center text-center">
         <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
           <span class="title-decorative">Em busca de contornar um momento difícil...</span>
@@ -140,18 +140,15 @@
         </div>
       </div>
     </div>
-
-
     <div class="container-fluid flush-with-above p-5 text-center bg-pers2">
       <div class="row justify-content-around align-items-center">
         <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
           <span class="title-decorative">E por que Salvador Dalí?</span>
           <h3 class="h1">O mestre do surrealismo!</h3>
           <span class="lead text-justify">
-            Conhecido pelo seu trabalhos surrealista, suas obras nos chamam a atenção por misturar a realidade com
+            Conhecido pelo seu trabalho surrealista, suas obras nos chamam a atenção por misturar a realidade com
             um mundo imaginário, muitas delas são capazes de darem nós em nossas cabeças, e, sem dúvidas, nos
-            divertirmos
-            enquanto tentamos decifrar seus segredos!
+            divertirmos enquanto tentamos decifrar seus segredos!
           </span>
         </div>
         <div class="col-12 col-md-5 order-md-1">
@@ -171,18 +168,11 @@
     <div class="container-fluid text-center pb-4 pt-4" style="background: white;">
       <div class="row">
         <div class="col">
-          <img src="img/Americanas-empresas_home_marcas_01_samsung.png" class="img-fluid">
-          <img src="img/Americanas-empresas_home_marcas_02_dell.png" class="img-fluid">
-          <img src="img/Americanas-empresas_home_marcas_03_acer.png" class="img-fluid">
-          <img src="img/Americanas-empresas_home_marcas_04_apple.png" class="img-fluid">
-          <img src="img/Americanas-empresas_home_marcas_05_motorola.png" class="img-fluid">
-          <img src="img/Americanas-empresas_home_marcas_06_LG.png" class="img-fluid">
-          <img src="img/Americanas-empresas_home_marcas_07_brastemp.png" class="img-fluid">
-          <img src="img/Americanas-empresas_home_marcas_11_lenovo.png" class="img-fluid">
-          <img src="img/Americanas-empresas_MARCAS_marcas_13_microsoft.png" class="img-fluid">
-          <img src="img/Americanas-empresas_MARCAS_marcas_14_intel.png" class="img-fluid">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/UE_Logo_Black_Centered.svg" height="190px"
-            width="190px" class="img-fluid">
+          <img src="img/centropaulasouza.png" class="img-fluid">
+          <img src="img/itau.png" class="img-fluid">
+          <img src="img/bradesco.png" class="img-fluid">
+          <img src="img/logoaviaras.png" class="img-fluid">
+          <img src="img/paralax.png" class="img-fluid">
         </div>
       </div>
     </div>

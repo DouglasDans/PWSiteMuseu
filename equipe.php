@@ -103,7 +103,7 @@
    <div class="container-fluid text-center bg-pers0 parceria bordaTopo text-white p-3">
       <h1>Quem Realmente somos:</h1>
    </div>
-   <div class="container-fluid flush-with-above p-5 text-center text-white bg-dark">
+   <div class="container-fluid flush-with-above p-5 menu text-center text-white bg-dark">
       <div class="row justify-content-around align-items-center">
          <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
             <h3 class="h1">Livrarias Aviaras</h3>
@@ -120,7 +120,7 @@
       </div>
    </div>
 
-   <div class="container-fluid flush-with-above p-5 text-center text-white bg-pers2">
+   <div class="container-fluid flush-with-above p-5 menu text-center text-white bg-pers2">
       <div class="row justify-content-around align-items-center text-center">
          <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
             <h5 class="h1">DD Livros</h5>
@@ -135,7 +135,7 @@
          </div>
       </div>
    </div>
-   <div class="container-fluid flush-with-above p-5 text-center text-white bg-dark">
+   <div class="container-fluid flush-with-above p-5 menu text-center text-white bg-dark">
       <div class="row justify-content-around align-items-center">
          <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
             <h3 class="h1">Concorrentes árduos</h3>
@@ -185,21 +185,21 @@
          <div class="row text-center pt-4">
             <div class="col-md-4 pb-5">
                <h3 class="linhaTitulo">Sobre</h3>
-               <a href="" class="text-muted textoRodape">Equipe</a>
+               <a href="" class="textoRodape">Equipe</a>
                <br>
-               <a href="https://github.com/DouglasDans/PWSiteMuseu" class="text-muted textoRodape">Github</a>
+               <a href="https://github.com/DouglasDans/PWSiteMuseu" class="textoRodape">Github</a>
             </div>
             <div class="col-md-4 pb-5">
                <h3 class="linhaTitulo">Fale Conosco</h3>
-               <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="text-muted textoRodape">Telefone</a>
+               <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="textoRodape">Telefone</a>
                <br>
-               <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="text-muted textoRodape">Email</a>
+               <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="textoRodape">Email</a>
             </div>
             <div class="col-md-4 pb-5">
                <h3 class="linhaTitulo">Doações</h3>
-               <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="text-muted textoRodape">Bitcoins</a>
+               <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="textoRodape">Bitcoins</a>
                <br>
-               <a href="https://www.youtube.com/watch?v=000al7ru3ms" class="text-muted textoRodape">Dogecoins</a>
+               <a href="https://www.youtube.com/watch?v=000al7ru3ms" class="textoRodape">Dogecoins</a>
             </div>
          </div>
       </div>
