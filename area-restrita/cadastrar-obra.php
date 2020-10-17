@@ -9,11 +9,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
-<body class="bg-pers0">
+<body class="bg-dark">
 <?php
   include("valida-sentinela.php");
 ?>
-   <div class="nav-container">
+<header>
+    <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
         <a class="navbar-brand pl-2" href="index-area-restrita.php">
           <img src="../img/dalidaonde.png" height="40px">
@@ -27,17 +28,17 @@
               <a class="nav-link" href="index-area-restrita.php"><p class="textoMenu">Home</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../sessao.php">
-                <p class="textoMenu">Obras de Dalí</p>
+              <a class="nav-link" href="sessao.php">
+                <p class="textoMenu">Exposição Digital</p>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../biografia.php">
+              <a class="nav-link" href="biografia.php">
                 <p class="textoMenu">Biografia de Dalí</p>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"><p class="textoMenu">Cadastrar Obra</p></a>
+              <a class="nav-link" href="cadastrar-obra.php"><p class="textoMenu">Cadastrar Obra</p></a>
             </li>
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
@@ -50,7 +51,9 @@
           </ul>
         </div>
       </nav>
-   </div>
+    </div>
+  </header>
+
 
    <div class="view pt-5 pb-5" style="background-image: url(../img/obras/A_tentacao_de_santo_Antonio.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
       <div>

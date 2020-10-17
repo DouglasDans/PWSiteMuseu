@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
-<body class="bg-pers0 text-white">
+<body class="bg-dark text-white">
 <?php
   include("valida-sentinela.php");
 ?>
