@@ -69,7 +69,7 @@
                     obra, mas isto é opcional, entre no Teams só se vc quiser.</p> 
                     <br>
                     <br>
-                    <a href="https://www.youtube.com/watch?v=SbclbLPVta8"><button type="button"
+                    <a href="obras.php"><button type="button"
                             class="btn btn-primary mt-3">Acessar as Obras</button></a>
                 </div>
 
