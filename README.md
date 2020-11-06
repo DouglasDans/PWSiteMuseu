@@ -10,5 +10,5 @@
 - [x] Montar o formulário
 - [x] Montar a tabela (talvez esteja errado)
 - [x] Fazer isso funcionar (EU SOU UM GÊNIO)
-- [ ] Deixar o site melhor (falta arrumar só alguns detalhes)
-- [ ] Corrigir os links e os bugs ao clickar em algum lugar ( >_< )
+- [x] Deixar o site melhor (falta arrumar só alguns detalhes)
+- [x] Corrigir os links e os bugs ao clickar em algum lugar ( >_< )
