@@ -10,7 +10,7 @@
   <title>Obras de Salvador Dalí</title>
 </head>
 
-<body>
+<body class="bg-dark text-white">
   <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
@@ -50,10 +50,58 @@
       </nav>
     </div>
   </header>
-  
+  <div class="bg-img">
+    <center>
+      <div class="bg-danger" style="height:40%;width:100%">
+        uma foto aq em breve
+    </center>
+  </div>
 
+  <div class="container" id="logo2">
+    <div class="container text-center">
+      <div class="row">
 
+        <div class="col-2">
+          <div class="text-left text-center rounded-sm img ">
+            <div id="">
+              <img src="https://cdn.pixabay.com/photo/2015/08/15/13/27/el-salvador-dali-889515_1280.jpg" width="180px"
+                height="260px" class="rounded-lg p-0 mx-auto img shadow" alt="...">
+            </div>
+          </div>
+        </div>
 
+        <div class="col-10 mt-5">
+          <div class="text-left  text-center p-1 rounded-sm">
+            <div class="ml-3">
+              <div class="font-weight-bold text-left h1 m-4">
+                Salvador Dalí - A Exposição Digital<br>
+              </div>
+              <div class="text-left ml-4">
+                <p>Divirta-se na nossa exposição digital de Salvador Dalí, o tempo é ilimitado</p>
+                <small class="text-muted">Criado por Paralax DD Livros e Aviaras Technology</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="mt-5 mb-5">
+
+    <div class="hoverzoom">
+    <img class="rounded" src="img/lenildo_noel.png" alt="Obras de Dalí" />
+    <div class="retina">
+        <p>Lenildo Natal</p>
+        <a href="#">Veja em alta qualidade</a>
+  </div>
+</div>
+    </div>
+  </div>
+    
+    </main>
+
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
 </body>
 
 </html>
