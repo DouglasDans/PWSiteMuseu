@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Cadastrar Obra</title>
+    <title>Cadastrar Período</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -55,30 +55,19 @@
   </header>
 
 
-   <div class="view pt-5 pb-5" style="background-image: url(../img/obras/A_tentacao_de_santo_Antonio.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
+   <div class="view pt-5 pb-5" style="background-image: url(../img/obras/O_Enigma_do_Desejo.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
       <div>
           <div class="container mt-4 mb-4">
               <div class="justify-content-center">
                   <div class="card text-center areaLogin w-75 mx-auto p-4">
                       <div class="row">
                           <form class="p-4" name="CadastrarObra" method="POST" action="../inserir-obra.php">
-                              <img src="../img/vetor_exibicao.png" class="pb-4 vetorExposicao img-fluid">
-                              <h1 class="display-4">Cadastrar Nova Obra</h1>
-                              <label for="txtNomeObra" class="labelFormulario mt-5 pb-2">Nome da Obra</label>
-                              <input type="text" class="form-control text-center" id="txtNomeObra" name="txtNomeObra" placeholder="Ex: Galetea de Esferas" required>
-                              <label for="txtCategoriaObra" class="labelFormulario mt-5 pb-2">Categoria da Obra</label>
-                              <select class="form-control" id="txtCategoriaObra" name="txtCategoriaObra" required>
-                                <option>Opção 1</option>
-                                <option>Opção 2</option>
-                                <option>Opção 3</option>
-                                <option>Opção 4</option>
-                              </select>
+                              <img src="../img/vetor_periodo.png" class="pb-4 vetorExposicao img-fluid">
+                              <h1 class="display-4">Cadastrar Período</h1>
                               <label class="labelFormulario mt-5 pb-2">Período da Obra</label>
                               <input type="text" class="form-control text-center" name="txtPeriodoObra" id="txtPeriodoObra" placeholder="Ex: Realismo, Cubismo, Surrealismo, etc..." required>
-                              <label class="labelFormulario mt-5 pb-2">Ano da Obra</label>
-                              <input type="text" class="form-control text-center" name="txtAnoObra" id="txtAnoObra" placeholder="Por favor inserir o ano no formato de 4 dígitos" required>
                               <div class="row pl-2 pr-2 mt-5">
-                                  <button type="submit" value="CadastrarObra" class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Obra</button>
+                                  <button type="submit" value="CadastrarObra" class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Período</button>
                               </div>
                           </form>
                       </div>
