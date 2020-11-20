@@ -38,8 +38,9 @@
               </a>
               <div class="bg-dropdown dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="text-dropdown dropdown-item" href="cadastrar-obra.php">Obra</a>
-                <a class="text-dropdown dropdown-item" href="#">Periodo</a>
-                <a class="text-dropdown dropdown-item" href="#">Categoria</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-periodo.php">Periodo</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-tipo-obra.php">Categoria</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-autor.php">Autor</a>
               </div>
             </li>
           </ul>

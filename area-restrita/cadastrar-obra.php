@@ -11,8 +11,11 @@
 
 <body class="bg-dark">
   <?php
-  include("valida-sentinela.php");
-?>
+    include("valida-sentinela.php");
+  ?>
+  <?php
+    require_once 'global-interno.php';
+  ?>
   <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
@@ -71,25 +74,69 @@
         <div class="justify-content-center">
           <div class="card text-center areaLogin w-75 mx-auto p-4">
             <div class="row">
+              <?php
+                try{
+                  $obra = new Obra();
+                  $categoria = new Categoria();
+                  $autor = new Autor();
+                  $periodo = new Periodo();
+
+                  $listacategoria = $categoria->listar();
+                  $listaautor = $autor->listar();
+                  $listaperiodo = $periodo->listar();
+                }
+                catch(Exception $e){
+                  echo '<pre>';
+                    print_r($e);
+                  echo '</pre>';
+                  echo $e->getMessage();
+                }
+              ?>
               <form class="p-4" name="CadastrarObra" method="POST" action="../inserir-obra.php">
                 <img src="../img/vetor_exibicao.png" class="pb-4 vetorExposicao img-fluid">
                 <h1 class="display-4">Cadastrar Nova Obra</h1>
                 <label for="txtNomeObra" class="labelFormulario mt-5 pb-2">Nome da Obra</label>
                 <input type="text" class="form-control text-center" id="txtNomeObra" name="txtNomeObra"
                   placeholder="Ex: Galetea de Esferas" required>
-                <label for="txtCategoriaObra" class="labelFormulario mt-5 pb-2">Categoria da Obra</label>
-                <select class="form-select" id="txtCategoriaObra" name="txtCategoriaObra" required>
-                  <option>Opção 1</option>
-                  <option>Opção 2</option>
-                  <option>Opção 3</option>
-                  <option>Opção 4</option>
-                </select>
-                <label class="labelFormulario mt-5 pb-2">Período da Obra</label>
-                <input type="text" class="form-control text-center" name="txtPeriodoObra" id="txtPeriodoObra"
-                  placeholder="Ex: Realismo, Cubismo, Surrealismo, etc..." required>
-                <label class="labelFormulario mt-5 pb-2">Ano da Obra</label>
+                <label for="txtAnoObra" class="labelFormulario mt-5 pb-2">Ano da Obra</label>
                 <input type="text" class="form-control text-center" name="txtAnoObra" id="txtAnoObra"
                   placeholder="Por favor inserir o ano no formato de 4 dígitos" required>
+                <label for="txtCategoriaObra" class="labelFormulario mt-5 pb-2">Categoria da Obra</label>
+                <select class="form-select" id="txtIdCategoria" name="txtIdCategoria" required>
+                  <?php
+                    foreach ($listacategoria as $linha){
+                  ?>
+                    <option value=<?php echo $linha['idCategoria']?>>
+                      <?php echo $linha['descCategoria']?>
+                    </option>
+                  <?php
+                    }
+                  ?>
+                </select>
+                <label for="txtPeriodoObra" class="labelFormulario mt-5 pb-2">Período da Obra</label>
+                <select class="form-select" id="txtIdPeriodo" name="txtIdPeriodo" required>
+                <?php
+                    foreach ($listaperiodo as $linha){
+                  ?>
+                    <option value=<?php echo $linha['idPeriodo']?>>
+                      <?php echo $linha['descPeriodo']?>
+                    </option>
+                  <?php
+                    }
+                  ?>
+                </select>
+                <label for="txtAutorObra" class="labelFormulario mt-5 pb-2">Autor da Obra</label>
+                <select class="form-select" id="txtIdAutor" name="txtIdAutor" required>
+                <?php
+                    foreach ($listaautor as $linha){
+                  ?>
+                    <option value=<?php echo $linha['idAutor']?>>
+                      <?php echo $linha['nomeAutor']?>
+                    </option>
+                  <?php
+                    }
+                  ?>
+                </select>
                 <div class="row pl-2 pr-2 mt-5">
                   <button type="submit" value="CadastrarObra"
                     class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Obra</button>
@@ -106,7 +153,7 @@
       </div>
     </div>
   </div>
-
+  
   <footer class="pt-2 bordaRodape bg-pers0 text-white">
     <div class="container-fluid">
       <div class="row pl-5 pr-5">
@@ -147,7 +194,7 @@
     </div>
   </footer>
 
-  <script src="js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 

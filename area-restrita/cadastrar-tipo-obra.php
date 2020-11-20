@@ -61,7 +61,7 @@
               <div class="justify-content-center">
                   <div class="card text-center areaLogin w-75 mx-auto p-4">
                       <div class="row">
-                          <form class="p-4" name="CadastrarObra" method="POST" action="../inserir-obra.php">
+                          <form class="p-4" name="CadastrarObra" method="POST" action="../inserir-categoria.php">
                               <img src="../img/vetor_paleta.png" class="pb-4 vetorExposicao img-fluid">
                               <h1 class="display-4">Cadastrar Categoria</h1>
                               <label class="labelFormulario mt-5 pb-2">Categoria da Obra</label>
