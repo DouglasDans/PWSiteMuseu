@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Cadastrar Período</title>
+    <title>Cadastrar Autor</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -55,19 +55,21 @@
   </header>
 
 
-   <div class="view pt-5 pb-5" style="background-image: url(../img/obras/O_Enigma_do_Desejo.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
+   <div class="view pt-5 pb-5" style="background-image: url(../img/obras/Galacidalacidesoxyribonucleicacid.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
       <div>
           <div class="container mt-4 mb-4">
               <div class="justify-content-center">
                   <div class="card text-center areaLogin w-75 mx-auto p-4">
                       <div class="row">
-                          <form class="p-4" name="CadastrarPeriodo" method="POST" action="../inserir-periodo.php">
-                              <img src="../img/vetor_periodo.png" class="pb-4 vetorExposicao img-fluid">
-                              <h1 class="display-4">Cadastrar Período</h1>
-                              <label class="labelFormulario mt-5 pb-2">Período da Obra</label>
-                              <input type="text" class="form-control text-center" name="txtPeriodoObra" id="txtPeriodoObra" placeholder="Ex: Realismo, Cubismo, Surrealismo, etc..." required>
+                          <form class="p-4" name="CadastrarObra" method="POST" action="../inserir-obra.php">
+                              <img src="../img/vetor_artista.png" class="pb-4 vetorArtista img-fluid">
+                              <h1 class="display-4">Cadastrar Autor</h1>
+                              <label for="txtNomeAutor" class="labelFormulario mt-5 pb-2">Nome do Autor</label>
+                              <input type="text" class="form-control text-center" name="txtNomeAutor" id="txtNomeAutor" placeholder="Ex: Salvador Dalí..." required>
+                              <label for="txtDataNascAutor" class="labelFormulario mt-5 pb-2">Data de Nascimento do Autor</label>
+                              <input type="date" class="form-control text-center" name="txtDataNascAutor" id="txtDataNascAutor" required>
                               <div class="row pl-2 pr-2 mt-5">
-                                  <button type="submit" value="CadastrarPeriodo" class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Período</button>
+                                  <button type="submit" value="CadastrarObra" class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Autor</button>
                               </div>
                           </form>
                       </div>

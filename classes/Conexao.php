@@ -2,8 +2,8 @@
 
    class Conexao{
       public static function pegarConexao(){
-         $conexao = new PDO("mysql:host=localhost;
-                              dbname=bdmuseudali",
+         $conexao = new PDO("mysql:host=localhost:3307;
+                              dbname=bdmuseuteste;",
                               "root",
                               "");
          $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

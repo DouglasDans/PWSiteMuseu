@@ -3,9 +3,10 @@
    class Obra{
       private $idObra;
       private $nomeObra;
-      private $categoriaObra;
-      private $periodoObra;
       private $anoObra;
+      private $idCategoria;
+      private $idPeriodo;
+      private $idAutor;
 
       public function getIdObra(){
          return $this->idObra;
@@ -23,20 +24,20 @@
          $this->nomeObra = $nomeObra;
       }
 
-      public function getCategoriaObra(){
-         return $this->categoriaObra;
+      public function getIdCategoria(){
+         return $this->idCategoria;
       }
 
-      public function setCategoriaObra($categoriaObra){
-         $this->categoriaObra = $categoriaObra;
+      public function setIdCategoria($idCategoria){
+         $this->IdCategoria = $idCategoria;
       }
 
-      public function getPeriodoObra(){
-         return $this->periodoObra;
+      public function getIdPeriodo(){
+         return $this->idPeriodo;
       }
 
-      public function setPeriodoObra($periodoObra){
-         $this->periodoObra = $periodoObra;
+      public function setIdPeriodo($idPeriodo){
+         $this->idPeriodoObra = $idPeriodo;
       }
 
       public function getAnoObra(){
@@ -45,6 +46,14 @@
 
       public function setAnoObra($anoObra){
          $this->anoObra = $anoObra;
+      }
+
+      public function getIdAutor(){
+         return $this->idAutor;
+      }
+
+      public function setIdAutor($idAutor){
+         $this->idAutor = $idAutor;
       }
 
       public function cadastrar($obra){

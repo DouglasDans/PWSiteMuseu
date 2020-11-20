@@ -11,8 +11,8 @@
 
 <body class="bg-dark">
   <?php
-  include("valida-sentinela.php");
-?>
+    include("valida-sentinela.php");
+  ?>
   <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
@@ -77,6 +77,9 @@
                 <label for="txtNomeObra" class="labelFormulario mt-5 pb-2">Nome da Obra</label>
                 <input type="text" class="form-control text-center" id="txtNomeObra" name="txtNomeObra"
                   placeholder="Ex: Galetea de Esferas" required>
+                <label for="txtAnoObra" class="labelFormulario mt-5 pb-2">Ano da Obra</label>
+                <input type="text" class="form-control text-center" name="txtAnoObra" id="txtAnoObra"
+                  placeholder="Por favor inserir o ano no formato de 4 dígitos" required>
                 <label for="txtCategoriaObra" class="labelFormulario mt-5 pb-2">Categoria da Obra</label>
                 <select class="form-select" id="txtCategoriaObra" name="txtCategoriaObra" required>
                   <option>Opção 1</option>
@@ -84,12 +87,17 @@
                   <option>Opção 3</option>
                   <option>Opção 4</option>
                 </select>
-                <label class="labelFormulario mt-5 pb-2">Período da Obra</label>
-                <input type="text" class="form-control text-center" name="txtPeriodoObra" id="txtPeriodoObra"
-                  placeholder="Ex: Realismo, Cubismo, Surrealismo, etc..." required>
-                <label class="labelFormulario mt-5 pb-2">Ano da Obra</label>
-                <input type="text" class="form-control text-center" name="txtAnoObra" id="txtAnoObra"
-                  placeholder="Por favor inserir o ano no formato de 4 dígitos" required>
+                <label for="txtPeriodoObra" class="labelFormulario mt-5 pb-2">Período da Obra</label>
+                <select class="form-select" id="txtPeriodoObra" name="txtPeriodoObra" required>
+                  <option>Opção 1</option>
+                  <option>Opção 2</option>
+                  <option>Opção 3</option>
+                  <option>Opção 4</option>
+                </select>
+                <label for="txtAutorObra" class="labelFormulario mt-5 pb-2">Autor da Obra</label>
+                <select class="form-select" id="txtAutorObra" name="txtAutorObra" required>
+                  <option>Opção 1</option>
+                </select>
                 <div class="row pl-2 pr-2 mt-5">
                   <button type="submit" value="CadastrarObra"
                     class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Obra</button>
