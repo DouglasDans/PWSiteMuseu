@@ -11,6 +11,9 @@
 </head>
 
 <body class="bg-dark text-white">
+  <?php
+    require_once 'global.php';
+  ?>
   <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
@@ -57,6 +60,22 @@
     </center>
   </div>
 
+  <!-- NÃO SE ASSUSTE, SÃO APENAS TESTES! -->
+  <?php
+    try{
+      $obra = new Obra();
+
+      $listaobra = $obra->listar();
+    }
+    catch(Exception $e){
+      echo '<pre>';
+        print_r($e);
+      echo '</pre>';
+      echo $e->getMessage();
+    }
+    
+  ?>
+
   <div class="container" id="logo2">
     <div class="container text-center">
       <div class="row">
@@ -88,16 +107,41 @@
     <main class="mt-5 mb-5">
 
     <div class="hoverzoom">
-    <img class="rounded" src="img/lenildo_noel.png" alt="Obras de Dalí" />
-    <div class="retina">
-        <p>Lenildo Natal</p>
-        <a href="#">Veja em alta qualidade</a>
-  </div>
-</div>
+      <img class="rounded" src="img/lenildo_noel.png" alt="Obras de Dalí" />
+      <div class="retina">
+          <p>Lenildo Natal</p>
+          <a href="#">Veja em alta qualidade</a>
+      </div>
     </div>
-  </div>
+
+    <!--- TAMBÉM É TESTE, SUJEUTO A MUDANÇAS -->
+    <?php
+      foreach ($listaobra as $linha){
+    ?>
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <img src="img/lenildo_noel.png" class="img-fluid">
+          </div>
+          <div class="col-8">
+            <h1><?php echo $linha['nomeObra'] ?></h1>
+            <h4 class="subtitulo-obra">Autor: <?php echo $linha['nomeAutor'] ?></h4>
+            <p class="texto-obra">Categoria: <?php echo $linha['descCategoria'] ?></p>
+            <button class="btn-outline-warning btn-block btn-lg btn-cadastro">Alta Qualidade</button>
+          </div>
+        </div>
+      </div>
+    <?php
+      }
+    ?>
+
     
+
     </main>
+</div>
+  
+    
+
 
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"

@@ -69,6 +69,20 @@
          return 'Cadastro da obra realizado com sucesso!';
       }
 
+      public function listar(){
+         $conexao = Conexao::pegarConexao();
+         $querySelect = "SELECT idObra, nomeObra, anoObra, descCategoria, descPeriodo, nomeAutor FROM tbobra
+                              INNER JOIN tbcategoria
+                                 ON tbcategoria.idCategoria = tbobra.idCategoria
+                                    INNER JOIN tbperiodo
+                                       ON tbperiodo.idPeriodo = tbobra.idPeriodo
+                                          INNER JOIN tbautor
+                                             ON tbautor.idAutor = tbobra.idAutor";
+         $resultado = $conexao->query($querySelect);
+         $lista = $resultado->fetchAll();
+         return $lista;
+      }
+
    }
 
 ?>

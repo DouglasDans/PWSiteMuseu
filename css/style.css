@@ -255,3 +255,13 @@ header {
     padding: 10px 15px;
     margin: 16px auto 0;
 }
+
+.subtitulo-obra {
+    color: #B0B0B0;
+}
+
+.titulo-obra {}
+
+.texto-obra {
+    color: #999999;
+}
