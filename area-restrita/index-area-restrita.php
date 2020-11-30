@@ -41,6 +41,7 @@
                 <a class="text-dropdown dropdown-item" href="cadastrar-periodo.php">Periodo</a>
                 <a class="text-dropdown dropdown-item" href="cadastrar-tipo-obra.php">Categoria</a>
                 <a class="text-dropdown dropdown-item" href="cadastrar-autor.php">Autor</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-imagem.php">Imagem</a>
               </div>
             </li>
           </ul>

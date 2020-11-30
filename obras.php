@@ -11,6 +11,9 @@
 </head>
 
 <body class="bg-dark text-white">
+  <?php
+    require_once 'global.php';
+  ?>
   <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
@@ -54,8 +57,24 @@
     <center>
       <div class="bg-danger" style="height:40%;width:100%">
         uma foto aq em breve
+       </div>
     </center>
   </div>
+
+  <!-- NÃO SE ASSUSTE, SÃO APENAS TESTES! -->
+  <?php
+    try{
+      $obra = new Obra();
+      $listaobra = $obra->listar2();
+    }
+    catch(Exception $e){
+      echo '<pre>';
+        print_r($e);
+      echo '</pre>';
+      echo $e->getMessage();
+    }
+    
+  ?>
 
   <div class="container" id="logo2">
     <div class="container text-center">
@@ -83,23 +102,79 @@
             </div>
           </div>
         </div>
+         
       </div>
     </div>
     <main class="mt-5 mb-5">
 
     <div class="hoverzoom">
-    <img class="rounded" src="img/lenildo_noel.png" alt="Obras de Dalí" />
-    <div class="retina">
-        <p>Lenildo Natal</p>
-        <a href="#">Veja em alta qualidade</a>
-  </div>
-</div>
+      <img class="rounded" src="img/lenildo_noel.png" alt="Obras de Dalí" />
+      <div class="retina">
+          <p>Lenildo Natal</p>
+          <a href="#">Veja em alta qualidade</a>
+      </div>
     </div>
-  </div>
+
+    <!--- TAMBÉM É TESTE, SUJEUTO A MUDANÇAS -->
+    <?php
+      foreach ($listaobra as $linha){
+    ?>
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <img src="<?php echo $linha['caminhoImagem']?>" class="img-fluid areaLogin">
+          </div>
+          <div class="col-8">
+            <h1><?php echo $linha['nomeObra'] ?></h1>
+            <h4 class="subtitulo-obra">Autor: <?php echo $linha['nomeAutor'] ?></h4>
+            <p class="texto-obra">Categoria: <?php echo $linha['descCategoria'] ?></p>
+            <button class="btn-outline-warning btn-block btn-lg btn-cadastro" data-toggle="modal" data-target="#exampleModal">Alta Qualidade</button>
+          </div>
+        </div>
+      </div>
+    <?php
+      }
+    ?>
+
+
+
+
+      <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>esse é o meu caminho e nele eu vou</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     
+
     </main>
+</div>
+  
+    
+
 
   <script src="js/bootstrap.min.js"></script>
+   <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
 </body>
