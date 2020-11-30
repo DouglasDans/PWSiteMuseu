@@ -106,41 +106,46 @@
                   <?php
                     foreach ($listacategoria as $linha){
                   ?>
-                    <option value=<?php echo $linha['idCategoria']?>>
-                      <?php echo $linha['descCategoria']?>
-                    </option>
+                  <option value=<?php echo $linha['idCategoria']?>>
+                    <?php echo $linha['descCategoria']?>
+                  </option>
                   <?php
                     }
                   ?>
                 </select>
                 <label for="txtPeriodoObra" class="labelFormulario mt-5 pb-2">Período da Obra</label>
                 <select class="form-select" id="txtIdPeriodo" name="txtIdPeriodo" required>
-                <?php
+                  <?php
                     foreach ($listaperiodo as $linha){
                   ?>
-                    <option value=<?php echo $linha['idPeriodo']?>>
-                      <?php echo $linha['descPeriodo']?>
-                    </option>
+                  <option value=<?php echo $linha['idPeriodo']?>>
+                    <?php echo $linha['descPeriodo']?>
+                  </option>
                   <?php
                     }
                   ?>
                 </select>
                 <label for="txtAutorObra" class="labelFormulario mt-5 pb-2">Autor da Obra</label>
                 <select class="form-select" id="txtIdAutor" name="txtIdAutor" required>
-                <?php
+                  <?php
                     foreach ($listaautor as $linha){
                   ?>
-                    <option value=<?php echo $linha['idAutor']?>>
-                      <?php echo $linha['nomeAutor']?>
-                    </option>
+                  <option value=<?php echo $linha['idAutor']?>>
+                    <?php echo $linha['nomeAutor']?>
+                  </option>
                   <?php
                     }
                   ?>
                 </select>
                 <div class="row pl-2 pr-2 mt-5">
-                  <button type="submit" value="CadastrarObra"
+                  <button type="submit" value="CadastrarObra" onclick=avisar()
                     class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Obra</button>
                 </div>
+                <script>
+                  function avisar() {
+                    alert("Obra cadastrada no banco de dados com sucesso");
+                  }
+                </script>
               </form>
             </div>
             <div class="row">
@@ -153,7 +158,7 @@
       </div>
     </div>
   </div>
-  
+
   <footer class="pt-2 bordaRodape bg-pers0 text-white">
     <div class="container-fluid">
       <div class="row pl-5 pr-5">

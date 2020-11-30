@@ -1,31 +1,34 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Home - Salvador Dalí</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+  <meta charset="UTF-8">
+  <title>Home - Salvador Dalí</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
 <body class="bg-dark text-white">
-<?php
+  <?php
   include("valida-sentinela.php");
 ?>
-<header>
+  <header>
     <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
         <a class="navbar-brand pl-2" href="index-area-restrita.php">
           <img src="../img/dalidaonde.png" height="40px">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto text-center justify-content-start">
             <li class="nav-item">
-              <a class="nav-link" href="index-area-restrita.php"><p class="textoMenu">Home</p></a>
+              <a class="nav-link" href="index-area-restrita.php">
+                <p class="textoMenu">Home</p>
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sessao.php">
@@ -33,7 +36,8 @@
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <p class="textoMenu">Cadastrar</p>
               </a>
               <div class="bg-dropdown dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -47,10 +51,14 @@
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
             <li class="nav-item">
-                <a class="nav-link"><p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p></a>
+              <a class="nav-link">
+                <p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p>
+              </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../logout.php"><p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p></a>
+              <a class="nav-link" href="../logout.php">
+                <p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p>
+              </a>
             </li>
           </ul>
         </div>
@@ -101,8 +109,8 @@
 
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="equipe.php" class=""><img src="../img/equipe.jpg" width="140px"
-                height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+            <a href="equipe.php" class=""><img src="../img/equipe.jpg" width="140px" height="140px"
+                class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Equipe</p>
@@ -176,7 +184,7 @@
     <div class="container-fluid text-center pb-4 pt-4" style="background: white;">
       <div class="row">
         <div class="col">
-        <img src="../img/centropaulasouza.png" class="img-fluid">
+          <img src="../img/centropaulasouza.png" class="img-fluid">
           <img src="../img/itau.png" class="img-fluid">
           <img src="../img/bradesco.png" class="img-fluid">
           <img src="../img/logoaviaras.png" class="img-fluid">

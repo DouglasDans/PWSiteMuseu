@@ -55,7 +55,8 @@
             <div class="col">
                 <div class="container text-white">
                     <h1 class="text-center mb-5">Salvador Dalí, A Exposição Digital</h1>
-                    <p class="text-justify">Aqui estamos onde seria a fila de espera para entrar na exposição num museu real, e
+                    <p class="text-justify">Aqui estamos onde seria a fila de espera para entrar na exposição num museu
+                        real, e
                         onde nos preparamos para ver todas as obras de Salvador Dalí, só que com corredores mais
                         estreitos eu diria.
                     </p>
@@ -63,14 +64,13 @@
                     <p>Voce será redirecionado para uma página comas obras de Salvador Dalí, onde você poderá ver-lás
                         por tempo ilimitado, com uma breve descrição de cada obra.</p>
                     <h4>Preciso pagar?</h4>
-                     <p> Não, mas se quiser a gente aceita.</p>
+                    <p> Não, mas se quiser a gente aceita.</p>
                     <h4>E os guias?</h4>
-                     <p>Nos fizemos uma sala no Microsoft Teams, nela, você pode interagir com os nossos guias sobre cada
-                    obra, mas isto é opcional, entre no Teams só se vc quiser.</p> 
+                    <p>Nos fizemos uma sala no Microsoft Teams, nela, você pode interagir com os nossos guias sobre cada
+                        obra, mas isto é opcional, entre no Teams só se vc quiser.</p>
                     <br>
                     <br>
-                    <a href="obras.php"><button type="button"
-                            class="btn btn-primary mt-3">Acessar as Obras</button></a>
+                    <a href="obras.php"><button type="button" class="btn btn-primary mt-3">Acessar as Obras</button></a>
                 </div>
 
             </div>
@@ -93,44 +93,44 @@
     </div>
 
     <footer class="pt-2 bordaRodape bg-pers0">
-    <div class="container-fluid">
-      <div class="row pl-5 pr-5">
-        <div class="col-md-3 pt-3 pb-3">
-          <img class="mb-2 img-fluid" src="img/DD-Paralax.png">
+        <div class="container-fluid">
+            <div class="row pl-5 pr-5">
+                <div class="col-md-3 pt-3 pb-3">
+                    <img class="mb-2 img-fluid" src="img/DD-Paralax.png">
+                </div>
+                <div class="col-md-6">
+                    <!-- nao coloca nada aqui nao -->
+                </div>
+                <div class="col-md-3 pt-3 pb-3">
+                    <img class="mb-2 img-fluid" src="img/logoMista.png">
+                </div>
+            </div>
+            <div class="row text-center pt-4">
+                <div class="col-md-4 pb-5">
+                    <h3 class="linhaTitulo">Sobre</h3>
+                    <a href="equipe.php" class="textoRodape">Equipe</a>
+                    <br>
+                    <a href="https://github.com/DouglasDans/PWSiteMuseu" class="textoRodape">Github</a>
+                </div>
+                <div class="col-md-4 pb-5">
+                    <h3 class="linhaTitulo">Fale Conosco</h3>
+                    <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="textoRodape">Telefone</a>
+                    <br>
+                    <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="textoRodape">Email</a>
+                </div>
+                <div class="col-md-4 pb-5">
+                    <h3 class="linhaTitulo">Doações</h3>
+                    <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="textoRodape">Bitcoins</a>
+                    <br>
+                    <a href="https://www.youtube.com/watch?v=000al7ru3ms" class="textoRodape">Dogecoins</a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6">
-          <!-- nao coloca nada aqui nao -->
+        <div class="bordaRodape bg-pers1">
+            <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
+            <center><small class="text-center">Aviaras ©2020 Aviaras Technology</small></center>
         </div>
-        <div class="col-md-3 pt-3 pb-3">
-          <img class="mb-2 img-fluid" src="img/logoMista.png">
-        </div>
-      </div>
-      <div class="row text-center pt-4">
-        <div class="col-md-4 pb-5">
-          <h3 class="linhaTitulo">Sobre</h3>
-          <a href="equipe.php" class="textoRodape">Equipe</a>
-          <br>
-          <a href="https://github.com/DouglasDans/PWSiteMuseu" class="textoRodape">Github</a>
-        </div>
-        <div class="col-md-4 pb-5">
-          <h3 class="linhaTitulo">Fale Conosco</h3>
-          <a href="https://www.youtube.com/watch?v=iW1Nff6jgjo" class="textoRodape">Telefone</a>
-          <br>
-          <a href="https://www.youtube.com/watch?v=pYcpZJVmXvU" class="textoRodape">Email</a>
-        </div>
-        <div class="col-md-4 pb-5">
-          <h3 class="linhaTitulo">Doações</h3>
-          <a href="https://www.youtube.com/watch?v=2q82bGtujFA" class="textoRodape">Bitcoins</a>
-          <br>
-          <a href="https://www.youtube.com/watch?v=000al7ru3ms" class="textoRodape">Dogecoins</a>
-        </div>
-      </div>
-    </div>
-    <div class="bordaRodape bg-pers1">
-      <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
-      <center><small class="text-center">Aviaras ©2020 Aviaras Technology</small></center>
-    </div>
-  </footer>
+    </footer>
 
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"

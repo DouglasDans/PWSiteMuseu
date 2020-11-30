@@ -67,7 +67,12 @@
                               <label class="labelFormulario mt-5 pb-2">Período da Obra</label>
                               <input type="text" class="form-control text-center" name="txtPeriodoObra" id="txtPeriodoObra" placeholder="Ex: Realismo, Cubismo, Surrealismo, etc..." required>
                               <div class="row pl-2 pr-2 mt-5">
-                                  <button type="submit" value="CadastrarPeriodo" class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Período</button>
+                                  <button type="submit" value="CadastrarPeriodo" onclick=avisar()  class="btn-cadastro btn-block btn-lg btn-outline-warning">Cadastrar Período</button>
+                                  <script>
+                                    function avisar(){
+                                          alert("Período cadastrado no banco de dados com sucesso");
+                                      }
+                                  </script>
                               </div>
                           </form>
                       </div>

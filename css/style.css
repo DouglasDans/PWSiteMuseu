@@ -22,7 +22,7 @@ body {
 }
 
 .bg-pers2 {
-    background-color: #141517 !important;
+    background-color: #141517a2 !important;
 }
 
 .bg-pers1 {
@@ -182,11 +182,13 @@ header {
     height: 10%;
 }
 
+
+
 #logo2 {
-    z-index: 2;
-    position: absolute;
-    top: 41%;
-    left: 5%;
+    float: left;
+    top: 90px;
+    width:100%;
+    margin: -90px 0px;
 }
 
 .hoverzoom {

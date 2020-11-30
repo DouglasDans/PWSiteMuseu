@@ -93,8 +93,8 @@
 
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="equipe.php" class=""><img src="img/equipe.jpg" width="140px"
-                height="140px" class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
+            <a href="equipe.php" class=""><img src="img/equipe.jpg" width="140px" height="140px"
+                class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Equipe</p>
@@ -219,9 +219,9 @@
     </div>
   </footer>
 
- <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </body>
 
 </html>

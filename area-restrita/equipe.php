@@ -1,58 +1,67 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Equipe - Salvador Dalí</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+   <meta charset="UTF-8">
+   <title>Equipe - Salvador Dalí</title>
+   <link rel="stylesheet" href="../css/reset.css">
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
 <body class="bg-dark text-white">
-<?php
+   <?php
   include("valida-sentinela.php");
 ?>
-<header>
-    <div class="nav-container">
-      <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
-        <a class="navbar-brand pl-2" href="index-area-restrita.php">
-          <img src="../img/dalidaonde.png" height="40px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto text-center justify-content-start">
-            <li class="nav-item">
-              <a class="nav-link" href="index-area-restrita.php"><p class="textoMenu">Home</p></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sessao.php">
-                <p class="textoMenu">Exposição Digital</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="biografia.php">
-                <p class="textoMenu">Biografia de Dalí</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cadastrar-obra.php"><p class="textoMenu">Cadastrar Obra</p></a>
-            </li>
-          </ul>
-          <ul class="navbar-nav text-center justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link"><p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../logout.php"><p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
+   <header>
+      <div class="nav-container">
+         <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
+            <a class="navbar-brand pl-2" href="index-area-restrita.php">
+               <img src="../img/dalidaonde.png" height="40px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto text-center justify-content-start">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index-area-restrita.php">
+                        <p class="textoMenu">Home</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="sessao.php">
+                        <p class="textoMenu">Exposição Digital</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="biografia.php">
+                        <p class="textoMenu">Biografia de Dalí</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="cadastrar-obra.php">
+                        <p class="textoMenu">Cadastrar Obra</p>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="navbar-nav text-center justify-content-end">
+                  <li class="nav-item">
+                     <a class="nav-link">
+                        <p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="../logout.php">
+                        <p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </header>
    <div class="container-fluid text-center bg-pers0 parceria text-white p-3">
       <h1>Equipe do Projeto:</h1>
    </div>
@@ -60,8 +69,8 @@
       <div class="row">
          <div class="col">
             <div class="text-left text-center p-1">
-               <img src="../img/diogo.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
-                  alt="...">
+               <img src="../img/diogo.jpg" class="shadow rounded-circle" width="120px"
+                  class="rounded-circle p-0 mx-auto" alt="...">
                <div class="font-weight-bold mt-2 center text-white">
                   Diogo<br>
                   <font class="text-white-50">Responsável pela pesquisa das obras</font>
@@ -80,8 +89,8 @@
          </div>
          <div class="col">
             <div class="text-left text-center p-1">
-               <img src="../img/douglas.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
-                  alt="...">
+               <img src="../img/douglas.jpg" class="shadow rounded-circle" width="120px"
+                  class="rounded-circle p-0 mx-auto" alt="...">
                <div class="font-weight-bold mt-2 center text-white">
                   Douglas (vulgo Risadinha)<br>
                   <font class="text-white-50">Responsável pelo modelo do site original e o design de algumas páginas e
@@ -91,8 +100,8 @@
          </div>
          <div class="col">
             <div class="text-left text-center p-1">
-               <img src="../img/danylo.jpg" class="shadow rounded-circle" width="120px" class="rounded-circle p-0 mx-auto"
-                  alt="...">
+               <img src="../img/danylo.jpg" class="shadow rounded-circle" width="120px"
+                  class="rounded-circle p-0 mx-auto" alt="...">
                <div class="font-weight-bold mt-2 center text-white">
                   Danylo (Vulgo Italiano)<br>
                   <font class="text-white-50">Responsável pela nova versão do site e pelos bugs não corrigidos (o que
