@@ -54,6 +54,15 @@ header {
     border-bottom-width: 2px;
 }
 
+.bordaGaleria {
+    border-bottom: gold;
+    border-top: gold;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
 .textoMenu {
     color: white;
     margin-bottom: 0px;
@@ -182,12 +191,10 @@ header {
     height: 10%;
 }
 
-
-
 #logo2 {
     float: left;
     top: 90px;
-    width:100%;
+    width: 100%;
     margin: -90px 0px;
 }
 

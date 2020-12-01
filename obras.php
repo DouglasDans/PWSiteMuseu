@@ -83,8 +83,7 @@
         <div class="col-2">
           <div class="text-left text-center rounded-sm img ">
             <div id="">
-              <img src="https://cdn.pixabay.com/photo/2015/08/15/13/27/el-salvador-dali-889515_1280.jpg" width="100%"
-                height="100%" class="rounded-lg p-0 mx-auto img shadow" alt="...">
+              <img src="https://cdn.pixabay.com/photo/2015/08/15/13/27/el-salvador-dali-889515_1280.jpg" class="rounded-lg p-0 mx-auto img shadow img-fluid" alt="...">
             </div>
           </div>
         </div>
@@ -121,30 +120,7 @@
 
 
 
-      <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-      Launch demo modal
-    </button>
-
-    <!-- Modal -->
-    <div class="modal modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <img src="img/1.png" alt=""> --rodou não
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          </div>
-        </div>
-      </div>
-    </div>
+      
 
    
 
@@ -152,22 +128,43 @@
 </div>
     <main style="margin-top:200px">
     <?php
+      $i = 0;
       foreach ($listaobra as $linha){
     ?>
+      <?php $i=$i+1 ?>
       <div class="bg-pers1 mt-5 mb-5">
-        <div class="container-fluid flush-with-above menu p-5 text-center text-white bg-pers2">
+        <div class="container-fluid flush-with-above bordaGaleria p-5 text-center text-white bg-pers2">
         <div class="row align-items-center ">
           <div class="col-4 ">
-            <img src="<?php echo $linha['caminhoImagem']?>" class="img-fluid areaLogin">
+            <img src="<?php echo $linha['caminhoImagem']?>" class="img-fluid areaLogin" alt="<?php echo $linha['descImagem'] ?>">
           </div>
           <div class="col-8">
             <h1><?php echo $linha['nomeObra'] ?></h1>
             <h4 class="subtitulo-obra">Autor: <?php echo $linha['nomeAutor'] ?></h4>
             <p class="texto-obra">Categoria: <?php echo $linha['descCategoria'] ?></p>
-            <button class="btn-outline-warning btn-block btn-lg btn-cadastro" data-toggle="modal" data-target="#exampleModal">Alta Qualidade</button>
+            <button class="btn-outline-warning btn-block btn-lg btn-cadastro" data-toggle="modal" data-target="<?php echo '#exampleModalLabel'.$i ?>">Alta Qualidade</button>
           </div>
         </div></div>
       </div>
+
+    <!-- Modal -->
+    <div class="modal modal fade" id="<?php echo 'exampleModalLabel'.$i ?>" tabindex="-1" role="dialog" aria-labelledby="<?php echo 'exampleModalLabel'.$i ?>" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="<?php echo 'exampleModalLabel'.$i ?>" style="color: black;"><?php echo $linha['nomeObra'] ?></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center pt-5">
+            <img src="<?php echo $linha['caminhoImagem'] ?>" class="areaLogin" alt="<?php echo $linha['descImagem'] ?>">
+            <p>teste</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <?php
       }
     ?>

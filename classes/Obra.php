@@ -85,7 +85,7 @@
 
       public function listar2(){
          $conexao = Conexao::pegarConexao();
-         $querySelect = "SELECT nomeObra, anoObra, descCategoria, descPeriodo, nomeAutor, caminhoImagem FROM tbobra
+         $querySelect = "SELECT nomeObra, anoObra, descCategoria, descPeriodo, nomeAutor, caminhoImagem, descImagem FROM tbobra
                               INNER JOIN tbcategoria
                                  ON tbcategoria.idCategoria = tbobra.idCategoria
                                     INNER JOIN tbperiodo
