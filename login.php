@@ -13,7 +13,7 @@
 <body>
     <!-- AINDA TEM TRABALHO PRA FAZER AQUI, MAS POR ENQUANTO É ISSO -->
     <div class="view pt-5 pb-5"
-        style="background-image: url(img/obras/A_persistencia_da_memoria.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
+        style="background-image: url(img/bg_login.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
         <div class="container mt-4 mb-4">
             <div class="justify-content-center">
                 <div class="card text-center areaLogin w-50 mx-auto p-4">

@@ -66,7 +66,7 @@
 
 
   <div class="view pt-5 pb-5"
-    style="background-image: url(../img/obras/O_Enigma_do_Desejo.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
+    style="background-image: url(../img/bg_imagem.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
     <div>
       <div class="container mt-4 mb-4">
         <div class="justify-content-center">

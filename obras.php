@@ -143,7 +143,9 @@
           <div class="col-8">
             <h1><?php echo $linha['nomeObra'] ?></h1>
             <h4 class="subtitulo-obra">Autor: <?php echo $linha['nomeAutor'] ?></h4>
-            <p class="texto-obra">Categoria: <?php echo $linha['descCategoria'] ?></p>
+            <p class="texto-obra mb-0">Categoria: <?php echo $linha['descCategoria'] ?></p>
+            <p class="texto-obra mb-0">Período: <?php echo $linha['descPeriodo'] ?></p>
+            <p class="texto-obra">Ano: <?php echo $linha['anoObra'] ?></p>
             <button class="btn-outline-warning btn-block btn-lg btn-cadastro" data-toggle="modal"
               data-target="<?php echo '#exampleModalLabel'.$i ?>">Alta Qualidade</button>
           </div>
@@ -156,7 +158,7 @@
       aria-labelledby="<?php echo 'exampleModalLabel'.$i ?>" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable rouded modal-xl" role="document">
         <div class="modal-content ">
-          <div class="modal-header bg-dark rouded">
+          <div class="modal-header bg-pers0 rouded">
             <h5 class="modal-title text-center text-white" id="<?php echo 'exampleModalLabel'.$i ?>"
               style="color: black;"><?php echo $linha['nomeObra'] ?></h5>
             <button type="button" class="close" data-dismiss="modal">
@@ -164,7 +166,7 @@
             </button>
           </div>
           <div class="modal-body text-center pt-5 bg-dark">
-            <img src="<?php echo $linha['caminhoImagem'] ?>" style=" width:30%;" class="areaLogin" alt="<?php echo $linha['descImagem'] ?>">
+            <img src="<?php echo $linha['caminhoImagem'] ?>" class="areaLogin img-fluid" alt="<?php echo $linha['descImagem'] ?>">
           </div>
         </div>
       </div>

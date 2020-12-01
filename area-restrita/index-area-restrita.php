@@ -151,7 +151,7 @@
           </p>
         </div>
         <div class="col-12 col-md-5 order-md-1">
-          <img src="../img/obras/galatea-de-esferas.jpeg" class="img-fluid areaLogin obraHome">
+          <img src="../img/exemplo_home.jpeg" class="img-fluid areaLogin obraHome">
           <br><small>Galatea de Esferas - 1952</small>
         </div>
       </div>
