@@ -55,9 +55,9 @@
   </header>
   <div class="bg-img bg-blur">
     <center>
-      <div class="" >
+      <div class="">
         <img src="img/1.jpg" style="height:40%;width:100%;backdrop-filter: blur(5px)" alt="">
-       </div>
+      </div>
     </center>
   </div>
 
@@ -79,34 +79,35 @@
   <div class=" " id="logo2">
     <div class=" bg-pers2 rounded shadow bg-blur p-4 text-center">
       <div class="container">
-      <div class="row">
-        <div class="col-2">
-          <div class="text-left text-center rounded-sm img ">
-            <div id="">
-              <img src="https://cdn.pixabay.com/photo/2015/08/15/13/27/el-salvador-dali-889515_1280.jpg" class="rounded-lg p-0 mx-auto img shadow img-fluid" alt="...">
+        <div class="row">
+          <div class="col-2">
+            <div class="text-left text-center rounded-sm img ">
+              <div id="">
+                <img src="img/dale.png"
+                  class="rounded-lg p-0 mx-auto img shadow img-fluid" alt="...">
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-10 mt-5">
-          <div class="text-left  text-center p-1 rounded-sm">
-            <div class="ml-3">
-              <div class="font-weight-bold text-left h1 m-4">
-                Salvador Dalí - A Exposição Digital<br>
-              </div>
-              <div class="text-left ml-4">
-                <p>Divirta-se na nossa exposição digital de Salvador Dalí, o tempo é ilimitado</p>
-                <small class="text-muted">Criado por Paralax DD Livros e Aviaras Technology</small>
+          <div class="col-10 mt-5">
+            <div class="text-left  text-center p-1 rounded-sm">
+              <div class="ml-3">
+                <div class="font-weight-bold text-left h1 m-4">
+                  Salvador Dalí - A Exposição Digital<br>
+                </div>
+                <div class="text-left ml-4">
+                  <p>Divirta-se na nossa exposição digital de Salvador Dalí, o tempo é ilimitado</p>
+                  <small class="text-muted">Criado por Paralax DD Livros e Aviaras Technology</small>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
     <main class="">
 
-    <!-- <div class="hoverzoom">
+      <!-- <div class="hoverzoom">
       <img class="rounded" src="img/lenildo_noel.png" alt="Obras de Dalí" />
       <div class="retina">
           <p>Lenildo Natal</p>
@@ -114,52 +115,56 @@
       </div> Não vou remover o lenildo, seria bem triste :C
     </div> -->
 
-    <!--- TAMBÉM É TESTE, SUJEUTO A MUDANÇAS -->
-    
+      <!--- TAMBÉM É TESTE, SUJEUTO A MUDANÇAS -->
 
 
 
 
-      
 
-   
+
+
+
 
     </main>
-</div>
-    <main style="margin-top:200px">
+  </div>
+  <main style="margin-top:18%">
     <?php
       $i = 0;
       foreach ($listaobra as $linha){
     ?>
-      <?php $i=$i+1 ?>
-      <div class="bg-pers1 mt-5 mb-5">
-        <div class="container-fluid flush-with-above bordaGaleria p-5 text-center text-white bg-pers2">
+    <?php $i=$i+1 ?>
+    <div class="bg-pers1 mt-5 mb-5">
+      <div class="container-fluid flush-with-above bordaGaleria p-5 text-center text-white bg-pers2">
         <div class="row align-items-center ">
           <div class="col-4 ">
-            <img src="<?php echo $linha['caminhoImagem']?>" class="img-fluid areaLogin" alt="<?php echo $linha['descImagem'] ?>">
+            <img src="<?php echo $linha['caminhoImagem']?>" class="img-fluid areaLogin"
+              alt="<?php echo $linha['descImagem'] ?>">
           </div>
           <div class="col-8">
             <h1><?php echo $linha['nomeObra'] ?></h1>
             <h4 class="subtitulo-obra">Autor: <?php echo $linha['nomeAutor'] ?></h4>
             <p class="texto-obra">Categoria: <?php echo $linha['descCategoria'] ?></p>
-            <button class="btn-outline-warning btn-block btn-lg btn-cadastro" data-toggle="modal" data-target="<?php echo '#exampleModalLabel'.$i ?>">Alta Qualidade</button>
+            <button class="btn-outline-warning btn-block btn-lg btn-cadastro" data-toggle="modal"
+              data-target="<?php echo '#exampleModalLabel'.$i ?>">Alta Qualidade</button>
           </div>
-        </div></div>
+        </div>
       </div>
+    </div>
 
     <!-- Modal -->
-    <div class="modal modal fade" id="<?php echo 'exampleModalLabel'.$i ?>" tabindex="-1" role="dialog" aria-labelledby="<?php echo 'exampleModalLabel'.$i ?>" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title text-center" id="<?php echo 'exampleModalLabel'.$i ?>" style="color: black;"><?php echo $linha['nomeObra'] ?></h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal modal fade rouded" id="<?php echo 'exampleModalLabel'.$i ?>" tabindex="-1" role="dialog"
+      aria-labelledby="<?php echo 'exampleModalLabel'.$i ?>" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable rouded modal-xl" role="document">
+        <div class="modal-content ">
+          <div class="modal-header bg-dark rouded">
+            <h5 class="modal-title text-center text-white" id="<?php echo 'exampleModalLabel'.$i ?>"
+              style="color: black;"><?php echo $linha['nomeObra'] ?></h5>
+            <button type="button" class="close" data-dismiss="modal">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body text-center pt-5">
-            <img src="<?php echo $linha['caminhoImagem'] ?>" class="areaLogin" alt="<?php echo $linha['descImagem'] ?>">
-            <p>teste</p>
+          <div class="modal-body text-center pt-5 bg-dark">
+            <img src="<?php echo $linha['caminhoImagem'] ?>" style=" width:30%;" class="areaLogin" alt="<?php echo $linha['descImagem'] ?>">
           </div>
         </div>
       </div>
@@ -168,9 +173,9 @@
     <?php
       }
     ?>
-    </main>
+  </main>
 
-    <footer class="pt-2 bordaRodape bg-pers0">
+  <footer class="pt-2 bordaRodape bg-pers0">
     <div class="container-fluid">
       <div class="row pl-5 pr-5">
         <div class="col-md-3 pt-3 pb-3">
@@ -212,9 +217,9 @@
 
 
   <script src="js/bootstrap.min.js"></script>
-   <script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </body>
 
 </html>
