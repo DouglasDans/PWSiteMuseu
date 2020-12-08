@@ -15,43 +15,44 @@
     require_once 'global.php';
   ?>
   <header>
-    <div class="nav-container">
-      <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
-        <a class="navbar-brand pl-2" href="index.php">
-          <img src="img/dalidaonde.png" height="40px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto text-center justify-content-start">
-            <li class="nav-item">
-              <a class="nav-link" href="index.php">
-                <p class="textoMenu">Home</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sessao.php">
-                <p class="textoMenu">Exposição Digital</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="biografia.php">
-                <p class="textoMenu">Biografia de Dalí</p>
-              </a>
-            </li>
-          </ul>
-          <ul class="navbar-nav text-center justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="login.php">
-                <p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <div class="nav-container bg-pers0">
+         <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
+            <a class="navbar-brand pl-2" href="index.php">
+               <img src="img/dalidaonde.png" height="40px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto text-center justify-content-start">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.php">
+                        <p class="textoMenu">Home</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="obras.php">
+                           <p class="textoMenu">Exposição Digital</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="biografia.php">
+                        <p class="textoMenu">Biografia de Dalí</p>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="navbar-nav text-center justify-content-end">
+                  <li class="nav-item">
+                     <a class="nav-link" href="login.php">
+                        <p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
   </header>
   <div class="bg-img bg-blur">
     <center>
@@ -76,7 +77,7 @@
     
   ?>
 
-  <div class=" " id="logo2">
+  <div class="container-fluid p-0 atracaoMuseu">
     <div class=" bg-pers2 rounded shadow bg-blur p-4 text-center">
       <div class="container">
         <div class="row">
@@ -143,7 +144,9 @@
           <div class="col-8">
             <h1><?php echo $linha['nomeObra'] ?></h1>
             <h4 class="subtitulo-obra">Autor: <?php echo $linha['nomeAutor'] ?></h4>
-            <p class="texto-obra">Categoria: <?php echo $linha['descCategoria'] ?></p>
+            <p class="texto-obra mb-0">Categoria: <?php echo $linha['descCategoria'] ?></p>
+            <p class="texto-obra mb-0">Período: <?php echo $linha['descPeriodo'] ?></p>
+            <p class="texto-obra">Ano: <?php echo $linha['anoObra'] ?></p>
             <button class="btn-outline-warning btn-block btn-lg btn-cadastro" data-toggle="modal"
               data-target="<?php echo '#exampleModalLabel'.$i ?>">Alta Qualidade</button>
           </div>
@@ -156,7 +159,7 @@
       aria-labelledby="<?php echo 'exampleModalLabel'.$i ?>" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable rouded modal-xl" role="document">
         <div class="modal-content ">
-          <div class="modal-header bg-dark rouded">
+          <div class="modal-header bg-pers0 rouded">
             <h5 class="modal-title text-center text-white" id="<?php echo 'exampleModalLabel'.$i ?>"
               style="color: black;"><?php echo $linha['nomeObra'] ?></h5>
             <button type="button" class="close" data-dismiss="modal">
@@ -164,7 +167,7 @@
             </button>
           </div>
           <div class="modal-body text-center pt-5 bg-dark">
-            <img src="<?php echo $linha['caminhoImagem'] ?>" style=" width:30%;" class="areaLogin" alt="<?php echo $linha['descImagem'] ?>">
+            <img src="<?php echo $linha['caminhoImagem'] ?>" class="areaLogin img-fluid" alt="<?php echo $linha['descImagem'] ?>">
           </div>
         </div>
       </div>

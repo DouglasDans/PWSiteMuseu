@@ -14,53 +14,56 @@
   include("valida-sentinela.php");
 ?>
    <header>
-      <div class="nav-container">
-         <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
-            <a class="navbar-brand pl-2" href="index-area-restrita.php">
-               <img src="../img/dalidaonde.png" height="40px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-               <ul class="navbar-nav mr-auto text-center justify-content-start">
-                  <li class="nav-item">
-                     <a class="nav-link" href="index-area-restrita.php">
-                        <p class="textoMenu">Home</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="sessao.php">
-                        <p class="textoMenu">Exposição Digital</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="biografia.php">
-                        <p class="textoMenu">Biografia de Dalí</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="cadastrar-obra.php">
-                        <p class="textoMenu">Cadastrar Obra</p>
-                     </a>
-                  </li>
-               </ul>
-               <ul class="navbar-nav text-center justify-content-end">
-                  <li class="nav-item">
-                     <a class="nav-link">
-                        <p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="../logout.php">
-                        <p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p>
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
-      </div>
+   <div class="nav-container">
+      <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
+        <a class="navbar-brand pl-2" href="index-area-restrita.php">
+          <img src="../img/dalidaonde.png" height="40px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto text-center justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link" href="index-area-restrita.php">
+                <p class="textoMenu">Home</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../obras.php">
+                <p class="textoMenu">Ver Obras</p>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p class="textoMenu">Cadastrar</p>
+              </a>
+              <div class="bg-dropdown dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="text-dropdown dropdown-item" href="cadastrar-obra.php">Obra</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-periodo.php">Periodo</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-tipo-obra.php">Categoria</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-autor.php">Autor</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-imagem.php">Imagem</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav text-center justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link">
+                <p class="textoMenu">Bem vindo, adm <i class="fas fa-user-shield"></i></p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../logout.php">
+                <p class="textoMenu">Sair <i class="fas fa-sign-out-alt"></i></p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
    </header>
    <div class="container-fluid text-center bg-pers0 parceria text-white p-3">
       <h1>Equipe do Projeto:</h1>
@@ -218,7 +221,7 @@
       </div>
       <div class="bordaRodape bg-pers1">
          <center><small class="text-center">DD Livros ©2020 Paralax Corporation</small></center>
-         <center><small class="text-center">Aviaras ©2020 Aviaras Family</small></center>
+         <center><small class="text-center">Aviaras ©2020 Aviaras Technology</small></center>
       </div>
    </footer>
 

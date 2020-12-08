@@ -31,7 +31,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sessao.php">
+              <a class="nav-link" href="../obras.php">
                 <p class="textoMenu">Ver Obras</p>
               </a>
             </li>
@@ -67,7 +67,7 @@
   </header>
 
   <main>
-    <div id="home-img">
+    <div class="home-img">
       <div class="carousel-caption">
         <blockquote class="blockquote text-right">
           <h1 class="display-1 rounded-sm ">Eu sou o surrealismo!</h1>
@@ -96,12 +96,12 @@
         </div>
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="sessao.php" class=""><img src="../img/never.png" width="140px" height="140px"
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class=""><img src="../img/never.png" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Ingressos</p>
-                <p>Saiba como participar dessa experiência inovadora</p>
+                <p>Venha conhecer nossa exposição presencialmente</p>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@
           </p>
         </div>
         <div class="col-12 col-md-5 order-md-1">
-          <img src="../img/obras/galatea-de-esferas.jpeg" class="img-fluid areaLogin obraHome">
+          <img src="../img/exemplo_home.jpeg" class="img-fluid areaLogin obraHome">
           <br><small>Galatea de Esferas - 1952</small>
         </div>
       </div>

@@ -16,10 +16,10 @@
 
 <body class="bg-dark text-white">
   <?php
-    require_once 'global.php';
+    require_once 'global-interno.php';
   ?>
   <header>
-    <div class="nav-container">
+  <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
         <a class="navbar-brand pl-2" href="index-area-restrita.php">
           <img src="../img/dalidaonde.png" height="40px">
@@ -36,7 +36,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sessao.php">
+              <a class="nav-link" href="../obras.php">
                 <p class="textoMenu">Ver Obras</p>
               </a>
             </li>

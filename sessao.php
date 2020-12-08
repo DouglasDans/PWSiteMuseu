@@ -12,43 +12,43 @@
 <body class="bg-dark text-white">
     <header>
         <div class="nav-container bg-pers0">
-            <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
-                <a class="navbar-brand pl-2" href="index.php">
-                    <img src="img/dalidaonde.png" height="40px">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto text-center justify-content-start">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.php">
-                                <p class="textoMenu">Home</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <p class="textoMenu">Exposição Digital</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="biografia.php">
-                                <p class="textoMenu">Biografia de Dalí</p>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav text-center justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.php">
-                                <p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+         <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
+            <a class="navbar-brand pl-2" href="index.php">
+               <img src="img/dalidaonde.png" height="40px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto text-center justify-content-start">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.php">
+                        <p class="textoMenu">Home</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="obras.php">
+                           <p class="textoMenu">Exposição Digital</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="biografia.php">
+                        <p class="textoMenu">Biografia de Dalí</p>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="navbar-nav text-center justify-content-end">
+                  <li class="nav-item">
+                     <a class="nav-link" href="login.php">
+                        <p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
     </header>
     <div class="container pt-5 pb-5" id="cont-part text-white">
         <div class="row">

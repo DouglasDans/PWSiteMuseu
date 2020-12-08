@@ -11,47 +11,48 @@
 
 <body class="bg-dark text-white">
   <header>
-    <div class="nav-container">
+    <div class="nav-container bg-pers0">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
-        <a class="navbar-brand pl-2" href="index.php">
-          <img src="img/dalidaonde.png" height="40px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto text-center justify-content-start">
-            <li class="nav-item">
-              <a class="nav-link" href="index.php">
-                <p class="textoMenu">Home</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sessao.php">
-                <p class="textoMenu">Exposição Digital</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="biografia.php">
-                <p class="textoMenu">Biografia de Dalí</p>
-              </a>
-            </li>
-          </ul>
-          <ul class="navbar-nav text-center justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="login.php">
-                <p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+            <a class="navbar-brand pl-2" href="index.php">
+               <img src="img/dalidaonde.png" height="40px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+               data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto text-center justify-content-start">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.php">
+                        <p class="textoMenu">Home</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="obras.php">
+                           <p class="textoMenu">Exposição Digital</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="biografia.php">
+                        <p class="textoMenu">Biografia de Dalí</p>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="navbar-nav text-center justify-content-end">
+                  <li class="nav-item">
+                     <a class="nav-link" href="login.php">
+                        <p class="textoMenu">Login <i class="fas fa-sign-in-alt"></i></p>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
   </header>
 
   <main>
-    <div id="home-img">
+    <div class="container-fluid home-img">
       <div class="carousel-caption">
         <blockquote class="blockquote text-right">
           <h1 class="display-1 rounded-sm ">Eu sou o surrealismo!</h1>
@@ -80,12 +81,12 @@
         </div>
         <div class="col">
           <div class="gta-gCard text-center p-1 rounded-sm">
-            <a href="sessao.php" class=""><img src="img/never.png" width="140px" height="140px"
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class=""><img src="img/never.png" width="140px" height="140px"
                 class="imgDestaqueMenu p-0 mx-auto" alt="..."></a>
             <div>
               <div class="text-center">
                 <p class="h2">Ingressos</p>
-                <p>Saiba como participar dessa experiência inovadora</p>
+                <p>Venha conhecer nossa exposição presencialmente</p>
               </div>
             </div>
           </div>
@@ -135,7 +136,7 @@
           </p>
         </div>
         <div class="col-12 col-md-5 order-md-1">
-          <img src="img/obras/galatea-de-esferas.jpeg" class="img-fluid areaLogin obraHome">
+          <img src="img/exemplo_home.jpeg" class="img-fluid areaLogin obraHome">
           <br><small>Galatea de Esferas - 1952</small>
         </div>
       </div>

@@ -78,7 +78,7 @@ header {
     opacity: 0.5;
 }
 
-#home-img {
+.home-img {
     height: 100%;
     width: 100%;
     background-image: url(../img/talvezhome.jpg);
@@ -191,11 +191,9 @@ header {
     height: 9%;
 }
 
-#logo2 {
-    float: left;
-    top: 90px;
-    width: 100%;
-    margin: -90px 0px;
+.atracaoMuseu {
+    background-color: rgba(24, 24, 32, 0.9);
+    margin-top: -5%;
 }
 
 .hoverzoom {
@@ -268,8 +266,6 @@ header {
 .subtitulo-obra {
     color: #B0B0B0;
 }
-
-.titulo-obra {}
 
 .texto-obra {
     color: #999999;

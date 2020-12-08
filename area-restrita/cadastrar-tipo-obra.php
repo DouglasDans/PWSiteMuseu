@@ -14,7 +14,7 @@
   include("valida-sentinela.php");
 ?>
   <header>
-    <div class="nav-container">
+  <div class="nav-container">
       <nav class="navbar navbar-dark bg-primary navbar-expand-lg bg-pers0 menu pl-2 pr-2">
         <a class="navbar-brand pl-2" href="index-area-restrita.php">
           <img src="../img/dalidaonde.png" height="40px">
@@ -31,19 +31,22 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sessao.php">
-                <p class="textoMenu">Exposição Digital</p>
+              <a class="nav-link" href="../obras.php">
+                <p class="textoMenu">Ver Obras</p>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="biografia.php">
-                <p class="textoMenu">Biografia de Dalí</p>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p class="textoMenu">Cadastrar</p>
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cadastrar-obra.php">
-                <p class="textoMenu">Cadastrar Obra</p>
-              </a>
+              <div class="bg-dropdown dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="text-dropdown dropdown-item" href="cadastrar-obra.php">Obra</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-periodo.php">Periodo</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-tipo-obra.php">Categoria</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-autor.php">Autor</a>
+                <a class="text-dropdown dropdown-item" href="cadastrar-imagem.php">Imagem</a>
+              </div>
             </li>
           </ul>
           <ul class="navbar-nav text-center justify-content-end">
@@ -65,7 +68,7 @@
 
 
   <div class="view pt-5 pb-5"
-    style="background-image: url(../img/obras/O_sono.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
+    style="background-image: url(../img/bg_categoria.jpg); background-repeat:no-repeat; background-size:cover; background-position: center center">
     <div>
       <div class="container mt-4 mb-4">
         <div class="justify-content-center">

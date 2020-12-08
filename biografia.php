@@ -29,7 +29,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sessao.php">
+                            <a class="nav-link" href="obras.php">
                                 <p class="textoMenu">Exposição Digital</p>
                             </a>
                         </li>
@@ -56,18 +56,9 @@
             <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
                 <h3 class="h1">Nasceu</h3>
                 <p class="lead text-justify">
-                    Lorem ipsum dolor sit amet. 33 quas eius ex consequatur veniam et libero rerum est voluptatibus
-                    internos sit deserunt autem
-                    aut iste consequatur. Ut saepe dolorem ut soluta modi qui cupiditate veritatis et quos quibusdam in
-                    asperiores obcaecati.
-                    Qui enim reiciendis sit velit alias id tempora consequuntur qui vitae inventore sit tempore omnis!
-                    Non dolores odit eos nihil
-                    sunt eos nihil perspiciatis ut dignissimos nemo. Aut nihil maiores sit reprehenderit tempora ut
-                    excepturi magni est ipsum
-                    doloribus. 33 facere voluptatem ut obcaecati odio et dolores accusamus aut internos galisum aut
-                    quisquam harum. Cum dolore
-                    consequatur est quisquam voluptatem aut velit magnam qui minus beatae ex commodi nisi cum dolorem
-                    expedita.
+                Salvador Domingo Dalí Domènech nasceu em Figueres, Girona, Espanha, no dia 11 de maio de 1904. Filho do tabelião Salvador Dalí 
+                Cusi e de Felipa Domènech em 1922 muda-se para Madrid e vai morar na Residência dos Estudantes, onde fica amigo do poeta 
+                Frederico Garcia Lorca e do futuro cineasta Luís Bunuel. Ingressa na Academia de Belas Artes de San Fernando.
                 </p>
             </div>
             <div class="col-12 col-md-5 order-md-1">
@@ -81,22 +72,15 @@
             <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
                 <h5 class="h1">Cresceu</h5>
                 <p class="lead text-justify">
-                    33 ratione doloremque qui ullam fuga aut ullam dolor est explicabo nisi. Eum recusandae laborum et
-                    veniam aut quisquam dolorem
-                    qui alias sequi sit velit consequatur aut molestias voluptatem est quia velit. Eum maiores autem quo
-                    molestias alias non eveniet
-                    nihil in perferendis maiores et animi fuga ut earum blanditiis et minus voluptas. Non rerum quaerat
-                    et exercitationem repellendus
-                    id quod distinctio sed dolor similique aut soluta neque et nesciunt adipisci qui dolor quos? Et
-                    commodi voluptatibus a natus
-                    maiores sit quia rerum ut minus consequatur quaerat reprehenderit. Rem internos iste a placeat
-                    quaerat est voluptas rerum et
-                    tenetur officiis. Ut dolorem molestiae ut saepe exercitationem ut expedita rerum sed necessitatibus
-                    quasi aut nisi omnis est velit
-                    quia est reiciendis voluptates? Ab exercitationem corporis ut quia officiis qui voluptas sapiente.
-                    Et voluptas nihil est quas
-                    deleniti ut dolor quae et unde reprehenderit est necessitatibus laboriosam est voluptas corrupti est
-                    autem recusandae.
+                Dalí chamava atenção com um figurino que mostrava sua personalidade excêntrica: com cabelos longos, gravata 
+                desproporcionalmente grande e uma capa que ia até os pés. Nessa época, realizava pinturas que passavam do realismo para 
+                composições cubistas como o Autorretrato com L’Humanité (1923).
+                Em 1925, Salvador Dalí realizou sua primeira mostra individual na Galeria Dalmau, em Barcelona. Em 1926, foi expulso da 
+                Academia de Artes por se desentender com um professor e declarar que ninguém ali era capaz de avaliá-lo. Nesse mesmo ano, 
+                viaja para Paris e se encontra com Picasso. Faz uma segunda mostra na Galeria Dalmau.
+                Em 1927 se instala em Paris e torna-se membro oficial do movimento Surrealista, liderado pelo poeta André Breton, que surgiu 
+                como reação ao racionalismo e ao materialismo da sociedade ocidental. Usar o potencial do subconsciente como fonte de imagens 
+                fantásticas e de sonhos era o objetivo do grupo. Em 1929 volta à Espanha. Produz Jogo Lúgubre (1929).
                 </p>
             </div>
             <div class="col-12 col-md-5 order-md-1">
@@ -109,19 +93,14 @@
             <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
                 <h3 class="h1">Ficou Famoso</h3>
                 <p class="lead text-justify">
-                    Qui quasi voluptatem et doloribus beatae aut veniam molestias et quia voluptas ut aspernatur
-                    consequatur ea velit consequatur.
-                    Ut explicabo iure quo amet cumque qui ipsam quod qui quia blanditiis et corrupti expedita quo totam
-                    similique. Ut deleniti
-                    minus non deserunt neque eos repellat asperiores sit dolores provident sit velit provident et
-                    consequatur facere. Id
-                    consectetur impedit quo omnis illo id consequatur internos quo itaque deleniti. Et nihil fuga in
-                    fugiat eveniet et debitis
-                    fugit rem quae inventore eos laudantium voluptatem sed dolor ullam. Eos minus veniam sed voluptas
-                    cupiditate ut itaque placeat?
-                    Est consequatur placeat hic explicabo reiciendis in illo accusamus qui distinctio praesentium sit
-                    internos aspernatur ad labore
-                    ipsum!
+                Ainda em 1929, Dalí faz sua primeira mostra individual em Paris, época em que se torna realmente um pintor surrealista. Nessa 
+                época, Gala (Helena Ivanovna Diakonova) entrou na vida de Dalí, depois de deixar o poeta Paul Éluard. Em 1930 muda-se com Gala
+                para o sul da França e depois para Cadaqués, na Espanha, onde compra uma casa.
+                Em 1931 realiza a segunda mostra individual na Galeria Pierre Colle, em Paris. Na mostra, entre outras obras, Dalí apresenta a 
+                tela Persistência da Memória (1931). A obra, adquirida por um colecionador particular, em 1934, foi doada ao Museu de Arte 
+                Moderna de Nova Iorque.
+                Na década de 30, Dalí produziu o melhor de sua obra: telas nas quais pessoas, animais, objetos e paisagens se fundem em 
+                composições insólitas.
                 </p>
             </div>
             <div class="col-12 col-md-5 order-md-1">
@@ -134,22 +113,13 @@
             <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
                 <h5 class="h1">Casou</h5>
                 <p class="lead text-justify">
-                    Est beatae eligendi aut ullam rerum aut repellat aspernatur qui tempora velit non maxime dolorem.
-                    Eos sequi nihil sit quia
-                    nobis et asperiores omnis ad obcaecati excepturi non reiciendis fuga cum rerum voluptatem aut
-                    maiores praesentium. Qui facere
-                    blanditiis et quaerat ducimus est sint voluptatum est nihil et numquam voluptatem sed animi sunt. 33
-                    dolorem quaerat sit
-                    perferendis labore est molestiae quaerat est quia enim est facilis optio non vero facilis quo quis
-                    rerum. Qui quia iste
-                    accusantium magnam est quia blanditiis est sequi quibusdam. Qui laborum voluptatem est cumque
-                    delectus qui culpa voluptate ea
-                    itaque rerum a omnis quod id nisi galisum. Qui illo ipsam vel reprehenderit quis et esse quam et
-                    natus sapiente a sint laborum
-                    At adipisci voluptatem et omnis harum. Aut accusantium eveniet ea dolor eius eos officia blanditiis
-                    ea fugiat iure et deleniti
-                    dolor sit explicabo modi. Et sint sunt cum repudiandae impedit id alias quasi qui velit soluta.
-                </p>
+                Depois de viver juntos desde 1929, Dalí e Gala se casaram em uma cerimônia civil em 1934, e em uma cerimônia católica em 1958, 
+                em Montrejic. Precisavam receber uma dispensa especial do papa, porque Gala tinha sido casada anteriormente. No início dos anos
+                1930, Dalí começou a assinar seus quadros com seu e seu nome como "É principalmente com o seu sangue, Gala, que eu pinto minhas 
+                imagens". Ele afirmou que Gala atuou como seu agente, e ajudado a redirecionar seu foco. Segundo a maioria dos relatos, Gala 
+                teve um forte impulso sexual e ao longo de sua vida teve vários casos extraconjugais (entre eles, com seu ex-marido Paul 
+                Éluard), que Dalí incentivava, pois ele era um praticante de candaulismo. Ela tinha uma predileção por jovens artistas, e na 
+                sua velhice, muitas vezes ela deu presentes caros para àqueles associados a ela.
             </div>
             <div class="col-12 col-md-5 order-md-1">
                 <img src="img/dali-vida.jpg" class="img-fluid areaLogin">
@@ -161,14 +131,12 @@
             <div class="col-12 col-md-5 order-md-1 mb-5 mb-md-0">
                 <h5 class="h1">Abriu um Museu</h5>
                 <p class="lead text-justify">
-                    Cum explicabo exercitationem a enim qui quas consequatur non eaque voluptates non voluptas maxime
-                    eos doloremque maxime vel
-                    quibusdam quos. Sit aperiam sint sit officia quasi non quia labore et dignissimos nostrum! Est
-                    officia tempora id voluptas
-                    fuga qui culpa fuga ex eveniet quia sed voluptates dolore? Aut quod vitae rem repellat aut galisum
-                    voluptate et quia alias
-                    aut laborum quaerat in quasi suscipit et maxime culpa. Et galisum nobis qui saepe nihil velit quia
-                    quo asperiores dolorum.
+                Teatro-Museu Dalí é um museu especialmente dedicado a Salvador Dalí, localiza-se em sua cidade natal, Figueres, Catalunha. O 
+                atual museu era um antigo teatro da cidade de Dalí quando criança, e onde suas primeiras exibições públicas foram realizadas. 
+                O antigo teatro foi bombardeado na Guerra Civil Espanhola e permaneceu em estado de ruína por décadas até Dalí e o prefeito de 
+                Figueres decidirem reconstrui-lo, em 1960. O museu foi aberto e 1974 e continuou em expansão até 1980. Abriga a maior e mais 
+                diversificada coleção de obras de Salvador Dalí, incluindo esculturas, colagens, mobiliário e outras curiosidades produzidas 
+                por Dalí.
                 </p>
             </div>
             <div class="col-12 col-md-5 order-md-2">
@@ -181,17 +149,11 @@
             <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
                 <h5 class="h1">Morreu</h5>
                 <p class="lead text-justify">
-                    Eos expedita dolorum qui soluta consectetur et dolores esse aut omnis consectetur. Aut quod omnis
-                    vel eaque voluptas qui
-                    recusandae consequatur non facere eaque et magni quidem qui vitae libero? Qui velit enim a illum
-                    totam et eveniet fugiat non
-                    molestiae earum hic veritatis voluptatibus. Eos enim laudantium qui recusandae voluptatem et odio
-                    inventore aut nostrum dolorum
-                    qui quod aliquam aut ratione possimus sed modi libero. A sint natus ut omnis commodi in voluptatum
-                    temporibus et explicabo
-                    molestiae qui rerum praesentium qui ratione ducimus! Quo aliquam incidunt ut facere earum est
-                    molestias quas aut nemo nobis.
-                    Eum voluptatibus quia et nihil labore aut vero dolorum est fugit quis ut veritatis possimus.
+                Em 23 de janeiro de 1989, morria o gênio da pintura Salvador Dalí. Ícone do surrealismo, o artista catalão foi uma das maiores
+                autoridades da arte contemporânea."Sou o surrealismo", dizia Salvador Dalí. Egocêntrico, excêntrico, rebelde e provocador, o 
+                artista foi um dos expoentes mundiais da arte contemporânea. Na manhã do dia 23 de janeiro de 1989, morria o homem que, acima 
+                de qualquer coisa, tentou – e conseguiu com grande êxito – nunca passar despercebido. Dalí tinha 84 anos e já fazia parte da 
+                história universal quando faleceu no hospital de sua cidade natal, Figueres, na Espanha.
                 </p>
             </div>
             <div class="col-12 col-md-5 order-md-1">
